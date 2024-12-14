@@ -29,6 +29,10 @@
 # endif /* _WIN32 */
 #endif /* LWIP_SOCKET */
 
+#ifdef SYLIXOS
+#include<netdb.h>
+#endif
+
 #if defined(__APPLE__) || defined(__FreeBSD__)
 #include <net/if_dl.h>
 #endif

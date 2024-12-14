@@ -12,30 +12,32 @@
 include(CUnit)
 include(Generate)
 
-idlc_generate(TARGET RoundTrip FILES RoundTrip.idl)
-idlc_generate(TARGET Space FILES Space.idl WARNINGS no-implicit-extensibility)
-idlc_generate(TARGET TypesArrayKey FILES TypesArrayKey.idl WARNINGS no-implicit-extensibility)
-idlc_generate(TARGET WriteTypes FILES WriteTypes.idl WARNINGS no-implicit-extensibility)
-idlc_generate(TARGET InstanceHandleTypes FILES InstanceHandleTypes.idl WARNINGS no-implicit-extensibility)
-idlc_generate(TARGET RWData FILES RWData.idl WARNINGS no-implicit-extensibility)
-idlc_generate(TARGET CreateWriter FILES CreateWriter.idl WARNINGS no-implicit-extensibility)
-idlc_generate(TARGET DataRepresentationTypes FILES DataRepresentationTypes.idl WARNINGS no-implicit-extensibility)
-idlc_generate(TARGET MinXcdrVersion FILES MinXcdrVersion.idl)
-idlc_generate(TARGET CdrStreamOptimize FILES CdrStreamOptimize.idl WARNINGS no-implicit-extensibility)
-idlc_generate(TARGET CdrStreamSkipDefault FILES CdrStreamSkipDefault.idl)
-idlc_generate(TARGET CdrStreamKeySize FILES CdrStreamKeySize.idl)
-idlc_generate(TARGET CdrStreamKeyExt FILES CdrStreamKeyExt.idl)
-idlc_generate(TARGET CdrStreamChecking FILES CdrStreamChecking.idl)
-idlc_generate(TARGET SerdataData FILES SerdataData.idl)
-idlc_generate(TARGET PsmxDataModels FILES PsmxDataModels.idl WARNINGS no-implicit-extensibility)
-idlc_generate(TARGET CdrStreamDataTypeInfo FILES CdrStreamDataTypeInfo.idl WARNINGS no-implicit-extensibility)
-idlc_generate(TARGET Array100 FILES Array100.idl WARNINGS no-implicit-extensibility)
-idlc_generate(TARGET DynamicData FILES DynamicData.idl WARNINGS no-implicit-extensibility)
+# 这些都注释掉，自己手动生成再导入
+# idlc_generate(TARGET RoundTrip FILES RoundTrip.idl)
+# idlc_generate(TARGET Space FILES Space.idl WARNINGS no-implicit-extensibility)
+# idlc_generate(TARGET TypesArrayKey FILES TypesArrayKey.idl WARNINGS no-implicit-extensibility)
+# idlc_generate(TARGET WriteTypes FILES WriteTypes.idl WARNINGS no-implicit-extensibility)
+# idlc_generate(TARGET InstanceHandleTypes FILES InstanceHandleTypes.idl WARNINGS no-implicit-extensibility)
+# idlc_generate(TARGET RWData FILES RWData.idl WARNINGS no-implicit-extensibility)
+# idlc_generate(TARGET CreateWriter FILES CreateWriter.idl WARNINGS no-implicit-extensibility)
+# idlc_generate(TARGET DataRepresentationTypes FILES DataRepresentationTypes.idl WARNINGS no-implicit-extensibility)
+# idlc_generate(TARGET MinXcdrVersion FILES MinXcdrVersion.idl)
+# idlc_generate(TARGET CdrStreamOptimize FILES CdrStreamOptimize.idl WARNINGS no-implicit-extensibility)
+# idlc_generate(TARGET CdrStreamSkipDefault FILES CdrStreamSkipDefault.idl)
+# idlc_generate(TARGET CdrStreamKeySize FILES CdrStreamKeySize.idl)
+# idlc_generate(TARGET CdrStreamKeyExt FILES CdrStreamKeyExt.idl)
+# idlc_generate(TARGET CdrStreamChecking FILES CdrStreamChecking.idl)
+# idlc_generate(TARGET SerdataData FILES SerdataData.idl)
+# idlc_generate(TARGET PsmxDataModels FILES PsmxDataModels.idl WARNINGS no-implicit-extensibility)
+# idlc_generate(TARGET CdrStreamDataTypeInfo FILES CdrStreamDataTypeInfo.idl WARNINGS no-implicit-extensibility)
+# idlc_generate(TARGET Array100 FILES Array100.idl WARNINGS no-implicit-extensibility)
+# idlc_generate(TARGET DynamicData FILES DynamicData.idl WARNINGS no-implicit-extensibility)
+
 if(ENABLE_TYPELIB)
-  idlc_generate(TARGET XSpace FILES XSpace.idl XSpaceEnum.idl XSpaceMustUnderstand.idl XSpaceTypeConsistencyEnforcement.idl WARNINGS no-implicit-extensibility no-inherit-appendable)
-  idlc_generate(TARGET XSpaceNoTypeInfo FILES XSpaceNoTypeInfo.idl NO_TYPE_INFO WARNINGS no-implicit-extensibility)
-  idlc_generate(TARGET TypeBuilderTypes FILES TypeBuilderTypes.idl WARNINGS no-implicit-extensibility)
-  idlc_generate(TARGET DynamicTypeTypes FILES DynamicTypeTypes.idl)
+  # idlc_generate(TARGET XSpace FILES XSpace.idl XSpaceEnum.idl XSpaceMustUnderstand.idl XSpaceTypeConsistencyEnforcement.idl WARNINGS no-implicit-extensibility no-inherit-appendable)
+  # idlc_generate(TARGET XSpaceNoTypeInfo FILES XSpaceNoTypeInfo.idl NO_TYPE_INFO WARNINGS no-implicit-extensibility)
+  # idlc_generate(TARGET TypeBuilderTypes FILES TypeBuilderTypes.idl WARNINGS no-implicit-extensibility)
+  # idlc_generate(TARGET DynamicTypeTypes FILES DynamicTypeTypes.idl)
 endif()
 
 set(ddsc_test_sources
@@ -191,8 +193,62 @@ else()
   )
 endif()
 
+# 手动传入idl生成的.c和.h
+add_cunit_executable(
+  cunit_ddsc 
+  ${ddsc_test_sources} 
+  RoundTrip.c 
+  RoundTrip.h
+  Space.c
+  Space.h
+  TypesArrayKey.c
+  TypesArrayKey.h
+  WriteTypes.c
+  WriteTypes.h
+  InstanceHandleTypes.c
+  InstanceHandleTypes.h
+  RWData.c
+  RWData.h
+  CreateWriter.c
+  CreateWriter.h
+  DataRepresentationTypes.c
+  DataRepresentationTypes.h
+  MinXcdrVersion.c
+  MinXcdrVersion.h
+  CdrStreamOptimize.c
+  CdrStreamOptimize.h
+  CdrStreamSkipDefault.c
+  CdrStreamSkipDefault.h
+  CdrStreamKeySize.c
+  CdrStreamKeySize.h
+  CdrStreamKeyExt.c
+  CdrStreamKeyExt.h
+  CdrStreamChecking.c
+  CdrStreamChecking.h
+  SerdataData.c
+  SerdataData.h
+  PsmxDataModels.c
+  PsmxDataModels.h
+  CdrStreamDataTypeInfo.c
+  CdrStreamDataTypeInfo.h
+  Array100.c
+  Array100.h
+  DynamicData.c
+  DynamicData.h
+  XSpace.c
+  XSpace.h
+  XSpaceEnum.c
+  XSpaceEnum.h
+  XSpaceMustUnderstand.c
+  XSpaceMustUnderstand.h
+  XSpaceNoTypeInfo.c
+  XSpaceNoTypeInfo.h
+  TypeBuilderTypes.c
+  TypeBuilderTypes.h
+  DynamicTypeTypes.c
+  DynamicTypeTypes.h
 
-add_cunit_executable(cunit_ddsc ${ddsc_test_sources})
+  )
 target_include_directories(
   cunit_ddsc PRIVATE
   "$<BUILD_INTERFACE:${CMAKE_BINARY_DIR}/src/include/>"
@@ -203,34 +259,17 @@ target_include_directories(
   "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/../../cdr/include>"
   "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/../../cdr/test>")
 
+# 删除idlc_generate生成的库
 target_link_libraries(cunit_ddsc PRIVATE
-  RoundTrip
-  Space
-  TypesArrayKey
-  WriteTypes
-  InstanceHandleTypes
-  RWData
-  CreateWriter
-  DataRepresentationTypes
-  MinXcdrVersion
-  CdrStreamOptimize
-  CdrStreamSkipDefault
-  CdrStreamDataTypeInfo
-  CdrStreamChecking
-  PsmxDataModels
   psmx_dummy
-  DynamicData
-  Array100
-  CdrStreamKeySize
-  CdrStreamKeyExt
-  SerdataData
   ddsc
 )
 
 
+# 这些直接加到add_cunit_executable中
 if(ENABLE_TYPELIB)
-  target_link_libraries(cunit_ddsc PRIVATE
-  XSpace XSpaceNoTypeInfo TypeBuilderTypes DynamicTypeTypes)
+  # target_link_libraries(cunit_ddsc PRIVATE
+  # XSpace XSpaceNoTypeInfo TypeBuilderTypes DynamicTypeTypes)
 endif()
 
 # Setup environment for config-tests
@@ -239,6 +278,7 @@ set(CUnit_ddsc_config_simple_udp_file "${CMAKE_CURRENT_LIST_DIR}/config_simple_u
 set(CUnit_ddsc_config_simple_udp_uri "file://${CUnit_ddsc_config_simple_udp_file}")
 set(CUnit_ddsc_config_simple_udp_max_participants "0")
 set(CUnit_ddsc_config_simple_udp_env "CYCLONEDDS_URI=${CUnit_ddsc_config_simple_udp_uri};MAX_PARTICIPANTS=${CUnit_ddsc_config_simple_udp_max_participants};${CUnit_ddsc_config_simple_udp_env}")
+
 set_tests_properties(
 	CUnit_ddsc_config_simple_udp
 	PROPERTIES
@@ -270,7 +310,12 @@ add_executable(oneliner
   "test_oneliner.c"
   "test_oneliner.h"
   "test_util.c"
-  "test_util.h")
+  "test_util.h"
+  RoundTrip.c 
+  RoundTrip.h
+  Space.c
+  Space.h
+  )
 target_include_directories(
   oneliner PRIVATE
   "$<BUILD_INTERFACE:${CMAKE_BINARY_DIR}/src/include/>"
@@ -279,20 +324,22 @@ target_include_directories(
   "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/../../ddsi/src>"
   "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/../../cdr/include>")
 
-target_link_libraries(oneliner PRIVATE RoundTrip Space ddsc)
+# 同理，改掉它 删去RoundTrip和Space就行，在前面的添加可执行文件一栏加上
+target_link_libraries(oneliner PRIVATE ddsc)
 
 # PSMX implementation with Cyclone as transport, for testing
 if (BUILD_SHARED_LIBS)
-  idlc_generate(TARGET psmx_cdds_data FILES psmx_cdds_data.idl)
+  # idlc_generate(TARGET psmx_cdds_data FILES psmx_cdds_data.idl) 注释掉这行
   set(psmx_cdds_sources
     "psmx_cdds_impl.c"
     "psmx_cdds_impl.h")
-  add_library(psmx_cdds SHARED ${psmx_cdds_sources})
+    # 构建的时候加上两个源代码文件
+  add_library(psmx_cdds SHARED ${psmx_cdds_sources} psmx_cdds_data.c psmx_cdds_data.h)
   target_include_directories(
     psmx_cdds PRIVATE
     "$<BUILD_INTERFACE:${CMAKE_CURRENT_BINARY_DIR}/include>"
     "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/../../ddsi/include>")
-  target_link_libraries(psmx_cdds PRIVATE ddsc psmx_cdds_data)
+  target_link_libraries(psmx_cdds PRIVATE ddsc)
 
   generate_export_header(psmx_cdds BASE_NAME PSMX_CDDS EXPORT_FILE_NAME "${CMAKE_CURRENT_BINARY_DIR}/include/dds/psmx_cdds/export.h")
 endif()

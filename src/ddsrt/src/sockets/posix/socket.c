@@ -449,23 +449,27 @@ ddsrt_recv(
   return recv_error_to_retcode(errno);
 }
 
-#if (LWIP_SOCKET && !defined(recvmsg)) || defined(__ZEPHYR__)
-static ssize_t recvmsg(int sockfd, struct msghdr *msg, int flags)
-{
-  assert(msg->msg_iovlen == 1);
-  assert(msg->msg_controllen == 0);
+#ifdef SYLIXOS
+//SYLIXOS下已经实现好recvmsg了 不需要在这里重新写一个
+#else
+    #if (LWIP_SOCKET && !defined(recvmsg)) || defined(__ZEPHYR__)
+    static ssize_t recvmsg(int sockfd, struct msghdr *msg, int flags)
+    {
+      assert(msg->msg_iovlen == 1);
+      assert(msg->msg_controllen == 0);
 
-  msg->msg_flags = 0;
+      msg->msg_flags = 0;
 
-  return recvfrom(
-    sockfd,
-    msg->msg_iov[0].iov_base,
-    msg->msg_iov[0].iov_len,
-    flags,
-    msg->msg_name,
-   &msg->msg_namelen);
-}
-#endif /* LWIP_SOCKET */
+      return recvfrom(
+        sockfd,
+        msg->msg_iov[0].iov_base,
+        msg->msg_iov[0].iov_len,
+        flags,
+        msg->msg_name,
+       &msg->msg_namelen);
+    }
+    #endif /* LWIP_SOCKET */
+#endif
 
 dds_return_t
 ddsrt_recvmsg(

@@ -21,13 +21,13 @@ endif()
 # that will supply a library target related the the given idl file.
 # In short, it takes the idl file, generates the source files with
 # the proper data types and compiles them into a library.
-idlc_generate(TARGET RoundTrip_lib FILES RoundTrip.idl)
+# idlc_generate(TARGET RoundTrip_lib FILES RoundTrip.idl)
 
 # Both executables have only one related source file.
-add_executable(RoundtripPing ping.c)
-add_executable(RoundtripPong pong.c)
+add_executable(RoundtripPing ping.c RoundTrip.c RoundTrip.h)
+add_executable(RoundtripPong pong.c RoundTrip.c RoundTrip.h)
 
 # Both executables need to be linked to the idl data type library and
 # the ddsc API library.
-target_link_libraries(RoundtripPing RoundTrip_lib CycloneDDS::ddsc)
-target_link_libraries(RoundtripPong RoundTrip_lib CycloneDDS::ddsc)
+target_link_libraries(RoundtripPing CycloneDDS::ddsc)
+target_link_libraries(RoundtripPong CycloneDDS::ddsc)

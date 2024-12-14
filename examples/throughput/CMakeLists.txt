@@ -21,13 +21,13 @@ endif()
 # that will supply a library target related the the given idl file.
 # In short, it takes the idl file, generates the source files with
 # the proper data types and compiles them into a library.
-idlc_generate(TARGET Throughput_lib FILES Throughput.idl)
+# idlc_generate(TARGET Throughput_lib FILES Throughput.idl)
 
 # Both executables have only one related source file.
-add_executable(ThroughputPublisher publisher.c)
-add_executable(ThroughputSubscriber subscriber.c)
+add_executable(ThroughputPublisher publisher.c Throughput.c Throughput.h)
+add_executable(ThroughputSubscriber subscriber.c Throughput.c Throughput.h)
 
 # Both executables need to be linked to the idl data type library and
 # the ddsc API library.
-target_link_libraries(ThroughputPublisher Throughput_lib CycloneDDS::ddsc)
-target_link_libraries(ThroughputSubscriber Throughput_lib CycloneDDS::ddsc)
+target_link_libraries(ThroughputPublisher CycloneDDS::ddsc)
+target_link_libraries(ThroughputSubscriber CycloneDDS::ddsc)

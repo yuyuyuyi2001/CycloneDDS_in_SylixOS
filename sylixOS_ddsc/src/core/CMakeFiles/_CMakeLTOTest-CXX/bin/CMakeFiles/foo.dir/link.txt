@@ -1,0 +1,2 @@
+"D:/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc-ar.exe" qc libfoo.a CMakeFiles/foo.dir/foo.cpp.o
+"D:/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc-ranlib.exe" libfoo.a

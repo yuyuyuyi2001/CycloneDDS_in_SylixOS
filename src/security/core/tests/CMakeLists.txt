@@ -13,7 +13,8 @@ include (GenerateExportHeader)
 include (CUnit)
 include (Generate)
 
-idlc_generate(TARGET SecurityCoreTests FILES SecurityCoreTests.idl WARNINGS no-implicit-extensibility)
+# 注释掉这个，自己手动生成相关的头文件
+# idlc_generate(TARGET SecurityCoreTests FILES SecurityCoreTests.idl WARNINGS no-implicit-extensibility)
 
 function(add_wrapper libname linklibs)
   set(srcs_wrapper
@@ -125,8 +126,9 @@ if(ENABLE_SSL AND OPENSSL_FOUND)
     set_source_files_properties("${CYCLONEDDS_OPENSSL_APPLINK}" PROPERTIES COMPILE_FLAGS "-D_CRT_SECURE_NO_WARNINGS")
   endif()
 endif()
+# 添加生成的头文件和c文件
+add_cunit_executable(cunit_security_core ${security_core_test_sources} SecurityCoreTests.c SecurityCoreTests.h)
 
-add_cunit_executable(cunit_security_core ${security_core_test_sources})
 add_coverage(cunit_security_core)
 if(CMAKE_GENERATOR MATCHES "Visual Studio")
   set_target_properties(cunit_security_core PROPERTIES LINK_FLAGS "/ignore:4099")
@@ -155,7 +157,9 @@ set(common_etc_dir "${CMAKE_CURRENT_SOURCE_DIR}/common/etc")
 set(plugin_wrapper_lib_dir "${CMAKE_CURRENT_BINARY_DIR}")
 configure_file("common/config_env.h.in" "common/config_env.h")
 
-target_link_libraries(cunit_security_core PRIVATE ddsc security_api SecurityCoreTests)
+# 不再链接SecurityCoreTests
+# target_link_libraries(cunit_security_core PRIVATE ddsc security_api SecurityCoreTests)
+target_link_libraries(cunit_security_core PRIVATE ddsc security_api)
 if(ENABLE_SSL AND OPENSSL_FOUND)
   target_link_libraries(cunit_security_core PRIVATE dds_security_auth dds_security_ac dds_security_crypto dds_security_access_control_wrapper dds_security_authentication_wrapper dds_security_cryptography_wrapper)
   target_link_libraries(cunit_security_core PRIVATE OpenSSL::SSL)

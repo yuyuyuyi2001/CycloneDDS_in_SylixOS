@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+

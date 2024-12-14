@@ -41,7 +41,8 @@ size_t
 ddsrt_ctime(dds_time_t abstime, char *str, size_t size)
 {
   struct tm tm;
-#if __SunOS_5_6 || __MINGW32__
+  // sylixos also use "%Y-%m-%d %H:%M:%S"
+#if __SunOS_5_6 || __MINGW32__ || SYLIXOS
   /* Solaris 2.6 doesn't recognize %z so we just leave it out */
   static const char fmt[] = "%Y-%m-%d %H:%M:%S";
 #else
@@ -60,7 +61,8 @@ ddsrt_ctime(dds_time_t abstime, char *str, size_t size)
 #endif /* _WIN32 */
 
   cnt = strftime(buf, sizeof(buf), fmt, &tm);
-#if ! __SunOS_5_6 && ! __MINGW32__
+  
+#if ! __SunOS_5_6 && ! __MINGW32__ && ! SYLIXOS
   /* %z is without a separator between hours and minutes, fixup */
   assert(cnt == (sizeof(buf) - 2 /* ':' + '\0' */));
   buf[sizeof(buf) - 1] = '\0';
