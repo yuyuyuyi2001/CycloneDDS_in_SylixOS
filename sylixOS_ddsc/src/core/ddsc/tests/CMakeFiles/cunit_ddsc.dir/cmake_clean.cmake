@@ -52,6 +52,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cunit_ddsc.dir/XSpaceMustUnderstand.c.o.d"
   "CMakeFiles/cunit_ddsc.dir/XSpaceNoTypeInfo.c.o"
   "CMakeFiles/cunit_ddsc.dir/XSpaceNoTypeInfo.c.o.d"
+  "CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.o"
+  "CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.o.d"
   "CMakeFiles/cunit_ddsc.dir/asymdisconnect.c.o"
   "CMakeFiles/cunit_ddsc.dir/asymdisconnect.c.o.d"
   "CMakeFiles/cunit_ddsc.dir/basic.c.o"

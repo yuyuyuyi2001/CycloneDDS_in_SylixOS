@@ -41,10 +41,13 @@ typedef struct ddsrt_socket_ext {
   ddsrt_socket_t sock;
 } ddsrt_socket_ext_t;
 
+// sylixOS has defined LWIP_SOCKET
 #if LWIP_SOCKET
 # define IFF_UP               0x1
 # define IFF_BROADCAST        0x2
-# define IFF_LOOPBACK         0x8
+// IFF_LOOPBACK in SYLIXOS is 0X100
+//# define IFF_LOOPBACK         0x8
+# define IFF_LOOPBACK       0x100
 # define IFF_POINTOPOINT     0x10
 # define IFF_MULTICAST     0x1000
 #elif __SunOS_5_6

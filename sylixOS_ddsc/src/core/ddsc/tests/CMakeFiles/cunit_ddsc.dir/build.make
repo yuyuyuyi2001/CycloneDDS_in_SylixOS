@@ -1447,10 +1447,24 @@ src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceMustUnderstand.c.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/cunit_ddsc.dir/XSpaceMustUnderstand.c.s"
 	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/ddsc/tests && /D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-missing-field-initializers -S /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/XSpaceMustUnderstand.c -o CMakeFiles/cunit_ddsc.dir/XSpaceMustUnderstand.c.s
 
+src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.o: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/flags.make
+src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.o: D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/XSpaceTypeConsistencyEnforcement.c
+src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.o: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.o"
+	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/ddsc/tests && /D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-missing-field-initializers -MD -MT src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.o -MF CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.o.d -o CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/XSpaceTypeConsistencyEnforcement.c
+
+src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.i"
+	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/ddsc/tests && /D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-missing-field-initializers -E /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/XSpaceTypeConsistencyEnforcement.c > CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.i
+
+src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.s"
+	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/ddsc/tests && /D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-missing-field-initializers -S /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/XSpaceTypeConsistencyEnforcement.c -o CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.s
+
 src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceNoTypeInfo.c.o: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/flags.make
 src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceNoTypeInfo.c.o: D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/XSpaceNoTypeInfo.c
 src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceNoTypeInfo.c.o: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceNoTypeInfo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceNoTypeInfo.c.o"
 	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/ddsc/tests && /D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-missing-field-initializers -MD -MT src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceNoTypeInfo.c.o -MF CMakeFiles/cunit_ddsc.dir/XSpaceNoTypeInfo.c.o.d -o CMakeFiles/cunit_ddsc.dir/XSpaceNoTypeInfo.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/XSpaceNoTypeInfo.c
 
 src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceNoTypeInfo.c.i: cmake_force
@@ -1464,7 +1478,7 @@ src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceNoTypeInfo.c.s: cmake_force
 src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/TypeBuilderTypes.c.o: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/flags.make
 src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/TypeBuilderTypes.c.o: D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/TypeBuilderTypes.c
 src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/TypeBuilderTypes.c.o: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/TypeBuilderTypes.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/TypeBuilderTypes.c.o"
 	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/ddsc/tests && /D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-missing-field-initializers -MD -MT src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/TypeBuilderTypes.c.o -MF CMakeFiles/cunit_ddsc.dir/TypeBuilderTypes.c.o.d -o CMakeFiles/cunit_ddsc.dir/TypeBuilderTypes.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/TypeBuilderTypes.c
 
 src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/TypeBuilderTypes.c.i: cmake_force
@@ -1478,7 +1492,7 @@ src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/TypeBuilderTypes.c.s: cmake_force
 src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/DynamicTypeTypes.c.o: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/flags.make
 src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/DynamicTypeTypes.c.o: D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/DynamicTypeTypes.c
 src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/DynamicTypeTypes.c.o: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/DynamicTypeTypes.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/DynamicTypeTypes.c.o"
 	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/ddsc/tests && /D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -Wno-missing-field-initializers -MD -MT src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/DynamicTypeTypes.c.o -MF CMakeFiles/cunit_ddsc.dir/DynamicTypeTypes.c.o.d -o CMakeFiles/cunit_ddsc.dir/DynamicTypeTypes.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/DynamicTypeTypes.c
 
 src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/DynamicTypeTypes.c.i: cmake_force
@@ -1589,6 +1603,7 @@ cunit_ddsc_OBJECTS = \
 "CMakeFiles/cunit_ddsc.dir/XSpace.c.o" \
 "CMakeFiles/cunit_ddsc.dir/XSpaceEnum.c.o" \
 "CMakeFiles/cunit_ddsc.dir/XSpaceMustUnderstand.c.o" \
+"CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.o" \
 "CMakeFiles/cunit_ddsc.dir/XSpaceNoTypeInfo.c.o" \
 "CMakeFiles/cunit_ddsc.dir/TypeBuilderTypes.c.o" \
 "CMakeFiles/cunit_ddsc.dir/DynamicTypeTypes.c.o"
@@ -1694,6 +1709,7 @@ bin/cunit_ddsc: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/DynamicData.c.o
 bin/cunit_ddsc: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpace.c.o
 bin/cunit_ddsc: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceEnum.c.o
 bin/cunit_ddsc: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceMustUnderstand.c.o
+bin/cunit_ddsc: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.o
 bin/cunit_ddsc: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceNoTypeInfo.c.o
 bin/cunit_ddsc: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/TypeBuilderTypes.c.o
 bin/cunit_ddsc: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/DynamicTypeTypes.c.o
@@ -1702,7 +1718,7 @@ bin/cunit_ddsc: lib/libucunit.so
 bin/cunit_ddsc: lib/libpsmx_dummy.so
 bin/cunit_ddsc: lib/libddsc.so.0.11.0
 bin/cunit_ddsc: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Linking C executable ../../../../bin/cunit_ddsc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Linking C executable ../../../../bin/cunit_ddsc"
 	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/ddsc/tests && /D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe  -ID:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include/network -m64 -mhard-float -mlong-double-64 -mno-red-zone -fno-omit-frame-pointer -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS   -O0 -g3 -gdwarf-2 -nostartfiles -Wl,-shared -fPIC -shared   -O0 -g3 -gdwarf-2 @CMakeFiles/cunit_ddsc.dir/objects1.rsp -o ../../../../bin/cunit_ddsc   -L/D/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/Release  -L/D/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/Debug  -L/D/RealEvo_workspace/vsoa_demo/x86_base/libcextern/Release  -L/D/RealEvo_workspace/vsoa_demo/x86_base/libcextern/Debug  -lcextern -lvpmpdm -lstdc++ -ldsohandle -lm -lgcc ../../../../lib/libucunit.so ../../../../lib/libpsmx_dummy.so ../../../../lib/libddsc.so.0.11.0 -lcextern -lvpmpdm -lstdc++ -ldsohandle -lm -lgcc
 
 # Rule to build all files generated by this target.

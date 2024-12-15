@@ -56,10 +56,10 @@ RM = /D/CMake/bin/cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /D/MSYS2/download/cyclonedds/examples/helloworld
+CMAKE_SOURCE_DIR = /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/examples/helloworld
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /D/MSYS2/download/cyclonedds/examples/helloworld/debug
+CMAKE_BINARY_DIR = /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/examples/helloworld/debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/HelloworldSubscriber.dir/depend.make
@@ -76,32 +76,32 @@ CMakeFiles/HelloworldSubscriber.dir/codegen:
 .PHONY : CMakeFiles/HelloworldSubscriber.dir/codegen
 
 CMakeFiles/HelloworldSubscriber.dir/subscriber.c.o: CMakeFiles/HelloworldSubscriber.dir/flags.make
-CMakeFiles/HelloworldSubscriber.dir/subscriber.c.o: D:/MSYS2/download/cyclonedds/examples/helloworld/subscriber.c
+CMakeFiles/HelloworldSubscriber.dir/subscriber.c.o: D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/examples/helloworld/subscriber.c
 CMakeFiles/HelloworldSubscriber.dir/subscriber.c.o: CMakeFiles/HelloworldSubscriber.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/D/MSYS2/download/cyclonedds/examples/helloworld/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/HelloworldSubscriber.dir/subscriber.c.o"
-	/D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HelloworldSubscriber.dir/subscriber.c.o -MF CMakeFiles/HelloworldSubscriber.dir/subscriber.c.o.d -o CMakeFiles/HelloworldSubscriber.dir/subscriber.c.o -c /D/MSYS2/download/cyclonedds/examples/helloworld/subscriber.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/examples/helloworld/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/HelloworldSubscriber.dir/subscriber.c.o"
+	/D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HelloworldSubscriber.dir/subscriber.c.o -MF CMakeFiles/HelloworldSubscriber.dir/subscriber.c.o.d -o CMakeFiles/HelloworldSubscriber.dir/subscriber.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/examples/helloworld/subscriber.c
 
 CMakeFiles/HelloworldSubscriber.dir/subscriber.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/HelloworldSubscriber.dir/subscriber.c.i"
-	/D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /D/MSYS2/download/cyclonedds/examples/helloworld/subscriber.c > CMakeFiles/HelloworldSubscriber.dir/subscriber.c.i
+	/D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/examples/helloworld/subscriber.c > CMakeFiles/HelloworldSubscriber.dir/subscriber.c.i
 
 CMakeFiles/HelloworldSubscriber.dir/subscriber.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/HelloworldSubscriber.dir/subscriber.c.s"
-	/D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /D/MSYS2/download/cyclonedds/examples/helloworld/subscriber.c -o CMakeFiles/HelloworldSubscriber.dir/subscriber.c.s
+	/D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/examples/helloworld/subscriber.c -o CMakeFiles/HelloworldSubscriber.dir/subscriber.c.s
 
 CMakeFiles/HelloworldSubscriber.dir/HelloWorldData.c.o: CMakeFiles/HelloworldSubscriber.dir/flags.make
-CMakeFiles/HelloworldSubscriber.dir/HelloWorldData.c.o: D:/MSYS2/download/cyclonedds/examples/helloworld/HelloWorldData.c
+CMakeFiles/HelloworldSubscriber.dir/HelloWorldData.c.o: D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/examples/helloworld/HelloWorldData.c
 CMakeFiles/HelloworldSubscriber.dir/HelloWorldData.c.o: CMakeFiles/HelloworldSubscriber.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/D/MSYS2/download/cyclonedds/examples/helloworld/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/HelloworldSubscriber.dir/HelloWorldData.c.o"
-	/D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HelloworldSubscriber.dir/HelloWorldData.c.o -MF CMakeFiles/HelloworldSubscriber.dir/HelloWorldData.c.o.d -o CMakeFiles/HelloworldSubscriber.dir/HelloWorldData.c.o -c /D/MSYS2/download/cyclonedds/examples/helloworld/HelloWorldData.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/examples/helloworld/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/HelloworldSubscriber.dir/HelloWorldData.c.o"
+	/D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/HelloworldSubscriber.dir/HelloWorldData.c.o -MF CMakeFiles/HelloworldSubscriber.dir/HelloWorldData.c.o.d -o CMakeFiles/HelloworldSubscriber.dir/HelloWorldData.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/examples/helloworld/HelloWorldData.c
 
 CMakeFiles/HelloworldSubscriber.dir/HelloWorldData.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/HelloworldSubscriber.dir/HelloWorldData.c.i"
-	/D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /D/MSYS2/download/cyclonedds/examples/helloworld/HelloWorldData.c > CMakeFiles/HelloworldSubscriber.dir/HelloWorldData.c.i
+	/D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/examples/helloworld/HelloWorldData.c > CMakeFiles/HelloworldSubscriber.dir/HelloWorldData.c.i
 
 CMakeFiles/HelloworldSubscriber.dir/HelloWorldData.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/HelloworldSubscriber.dir/HelloWorldData.c.s"
-	/D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /D/MSYS2/download/cyclonedds/examples/helloworld/HelloWorldData.c -o CMakeFiles/HelloworldSubscriber.dir/HelloWorldData.c.s
+	/D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/examples/helloworld/HelloWorldData.c -o CMakeFiles/HelloworldSubscriber.dir/HelloWorldData.c.s
 
 # Object files for target HelloworldSubscriber
 HelloworldSubscriber_OBJECTS = \
@@ -114,9 +114,9 @@ HelloworldSubscriber_EXTERNAL_OBJECTS =
 HelloworldSubscriber: CMakeFiles/HelloworldSubscriber.dir/subscriber.c.o
 HelloworldSubscriber: CMakeFiles/HelloworldSubscriber.dir/HelloWorldData.c.o
 HelloworldSubscriber: CMakeFiles/HelloworldSubscriber.dir/build.make
-HelloworldSubscriber: CycloneDDS::ddsc-NOTFOUND
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/D/MSYS2/download/cyclonedds/examples/helloworld/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable HelloworldSubscriber"
-	/D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe  -ID:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include/network -m64 -mhard-float -mlong-double-64 -mno-red-zone -fno-omit-frame-pointer -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS   $(HelloworldSubscriber_OBJECTS) $(HelloworldSubscriber_EXTERNAL_OBJECTS) -o HelloworldSubscriber   -L/D/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/Release  -L/D/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/Debug  -L/D/RealEvo_workspace/vsoa_demo/x86_base/libcextern/Release  -L/D/RealEvo_workspace/vsoa_demo/x86_base/libcextern/Debug  -lcextern -lvpmpdm -lstdc++ -ldsohandle -lm -lgcc CycloneDDS::ddsc-NOTFOUND
+HelloworldSubscriber: D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/_install/lib/libddsc.so.0.11.0
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/examples/helloworld/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable HelloworldSubscriber"
+	/D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc.exe  -ID:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include/network -m64 -mhard-float -mlong-double-64 -mno-red-zone -fno-omit-frame-pointer -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS   -O2 -g3 -gdwarf-2 -nostartfiles -Wl,-shared -fPIC -shared   -O2 -g3 -gdwarf-2 $(HelloworldSubscriber_OBJECTS) $(HelloworldSubscriber_EXTERNAL_OBJECTS) -o HelloworldSubscriber   -L/D/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/Release  -L/D/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/Debug  -L/D/RealEvo_workspace/vsoa_demo/x86_base/libcextern/Release  -L/D/RealEvo_workspace/vsoa_demo/x86_base/libcextern/Debug  -lcextern -lvpmpdm -lstdc++ -ldsohandle -lm -lgcc -lcextern -lvpmpdm -lstdc++ -ldsohandle -lm -lgcc /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/_install/lib/libddsc.so.0.11.0 -lcextern -lvpmpdm -lstdc++ -ldsohandle -lm -lgcc
 
 # Rule to build all files generated by this target.
 CMakeFiles/HelloworldSubscriber.dir/build: HelloworldSubscriber
@@ -127,6 +127,6 @@ CMakeFiles/HelloworldSubscriber.dir/clean:
 .PHONY : CMakeFiles/HelloworldSubscriber.dir/clean
 
 CMakeFiles/HelloworldSubscriber.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" /D/MSYS2/download/cyclonedds/examples/helloworld /D/MSYS2/download/cyclonedds/examples/helloworld /D/MSYS2/download/cyclonedds/examples/helloworld/debug /D/MSYS2/download/cyclonedds/examples/helloworld/debug /D/MSYS2/download/cyclonedds/examples/helloworld/debug/CMakeFiles/HelloworldSubscriber.dir/DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MSYS Makefiles" /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/examples/helloworld /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/examples/helloworld /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/examples/helloworld/debug /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/examples/helloworld/debug /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/examples/helloworld/debug/CMakeFiles/HelloworldSubscriber.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/HelloworldSubscriber.dir/depend
 

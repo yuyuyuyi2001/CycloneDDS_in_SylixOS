@@ -856,6 +856,30 @@ XSpaceNoTypeInfo.c.s:
 	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc && $(MAKE) $(MAKESILENT) -f src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/build.make src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceNoTypeInfo.c.s
 .PHONY : XSpaceNoTypeInfo.c.s
 
+XSpaceTypeConsistencyEnforcement.o: XSpaceTypeConsistencyEnforcement.c.o
+.PHONY : XSpaceTypeConsistencyEnforcement.o
+
+# target to build an object file
+XSpaceTypeConsistencyEnforcement.c.o:
+	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc && $(MAKE) $(MAKESILENT) -f src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/build.make src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.o
+.PHONY : XSpaceTypeConsistencyEnforcement.c.o
+
+XSpaceTypeConsistencyEnforcement.i: XSpaceTypeConsistencyEnforcement.c.i
+.PHONY : XSpaceTypeConsistencyEnforcement.i
+
+# target to preprocess a source file
+XSpaceTypeConsistencyEnforcement.c.i:
+	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc && $(MAKE) $(MAKESILENT) -f src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/build.make src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.i
+.PHONY : XSpaceTypeConsistencyEnforcement.c.i
+
+XSpaceTypeConsistencyEnforcement.s: XSpaceTypeConsistencyEnforcement.c.s
+.PHONY : XSpaceTypeConsistencyEnforcement.s
+
+# target to generate assembly for a file
+XSpaceTypeConsistencyEnforcement.c.s:
+	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc && $(MAKE) $(MAKESILENT) -f src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/build.make src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.s
+.PHONY : XSpaceTypeConsistencyEnforcement.c.s
+
 asymdisconnect.o: asymdisconnect.c.o
 .PHONY : asymdisconnect.o
 
@@ -2876,6 +2900,9 @@ help:
 	@echo "... XSpaceNoTypeInfo.o"
 	@echo "... XSpaceNoTypeInfo.i"
 	@echo "... XSpaceNoTypeInfo.s"
+	@echo "... XSpaceTypeConsistencyEnforcement.o"
+	@echo "... XSpaceTypeConsistencyEnforcement.i"
+	@echo "... XSpaceTypeConsistencyEnforcement.s"
 	@echo "... asymdisconnect.o"
 	@echo "... asymdisconnect.i"
 	@echo "... asymdisconnect.s"

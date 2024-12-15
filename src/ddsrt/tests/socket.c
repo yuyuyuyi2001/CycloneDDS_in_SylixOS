@@ -151,16 +151,18 @@ CU_Test(ddsrt_sockets, gethostname)
   char sysbuf[200], buf[200];
 
   buf[0] = '\0';
-  rc = ddsrt_gethostname(buf, sizeof(buf));
+  rc = ddsrt_gethostname(buf, sizeof(buf)); // buf: 'sylixos'
   CU_ASSERT_EQUAL(rc, DDS_RETCODE_OK);
 
   sysbuf[0] = '\0';
-#if LWIP_SOCKET
-  (void) ddsrt_strlcpy(sysbuf, "localhost", sizeof(sysbuf));
+#if LWIP_SOCKET && !SYLIXOS
+  (void) ddsrt_strlcpy(sysbuf, "localhost", sizeof(sysbuf)); // sysbuf: 'localhost'
 #else
   int ret = gethostname(sysbuf, sizeof(sysbuf));
   CU_ASSERT_EQUAL(ret, 0);
 #endif
+  printf("sysbuf: '%s'\n", sysbuf);
+  printf("buf: '%s'\n", buf);
   CU_ASSERT(strcmp(buf, sysbuf) == 0);
 
   rc = ddsrt_gethostname(buf, strlen(buf) - 1);
@@ -170,9 +172,13 @@ CU_Test(ddsrt_sockets, gethostname)
 #if DDSRT_HAVE_DNS
 static void gethostbyname_test(char *name, int af, dds_return_t exp)
 {
+  printf("getname:%s\n", name);
   dds_return_t rc;
   ddsrt_hostent_t *hent = NULL;
   rc = ddsrt_gethostbyname(name, af, &hent);
+
+  printf("ddsrt_gethostbyname returned rc: %d\n", rc);
+  printf("exp: %d\n", exp);
   CU_ASSERT_EQUAL(rc, exp);
   if (rc == DDS_RETCODE_OK) {
     CU_ASSERT_FATAL(hent->naddrs > 0);

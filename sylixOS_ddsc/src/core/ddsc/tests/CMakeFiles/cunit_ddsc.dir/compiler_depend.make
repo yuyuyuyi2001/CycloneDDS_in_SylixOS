@@ -4351,6 +4351,180 @@ src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceNoTypeInfo.c.o: D:/MSYS2/dow
   D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/signal/signal.h \
   D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/util/sioLib.h
 
+src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.o: D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/XSpaceTypeConsistencyEnforcement.c \
+  D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/include/dds/ddsc/dds_opcodes.h \
+  D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/include/dds/ddsc/dds_public_alloc.h \
+  D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/include/dds/ddsc/dds_public_impl.h \
+  D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/XSpaceTypeConsistencyEnforcement.h \
+  D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/ddsrt/include/dds/ddsrt/align.h \
+  D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/ddsrt/include/dds/ddsrt/static_assert.h \
+  src/core/include/dds/export.h \
+  src/ddsrt/include/dds/features.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/api/Lw_Api_Fs.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/api/Lw_Api_Kernel.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/api/Lw_Api_Loader.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/api/Lw_Api_Mp.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/api/Lw_Api_Net.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/api/Lw_Api_Shell.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/api/Lw_Api_Symbol.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/api/Lw_Api_System.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/api/Lw_Class_Kernel.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/api/Lw_Class_Mp.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/api/Lw_Class_System.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/appl/appl.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/config/cpu/cpu_cfg.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/fs/include/fs_fs.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/fs/include/fs_type.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include/SylixOS.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include/module.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include/stdint.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include/sys/cdefs.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include/sys/cdefs_elf.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include/sys/compiler.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/include/k_kernel.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/include/k_logo.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/lib/libc/stdint/lib_stdint.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/loader/include/loader.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/loader/include/loader_error.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/loader/include/loader_module.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/mpi/include/mpi_mpi.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/net/include/net_net.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/posix/include/px_posix.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/shell/include/ttiny_shell.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/symbol/include/sym_sym.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/include/s_system.h \
+  D:/RealEvo/compiler/x86_64-sylixos-toolchain/lib/gcc/x86_64-sylixos-elf/10.2.1/include/stdbool.h \
+  D:/RealEvo/compiler/x86_64-sylixos-toolchain/lib/gcc/x86_64-sylixos-elf/10.2.1/include/stddef.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/appl/database/database.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/appl/editors/editors.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/appl/editors/vi/vi_sylixos.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/appl/vmware/vmware.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/appl/zip/zip.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/appl/zip/zlib/zlib_sylixos.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/config/cpu/cpu_cfg.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/config/cpu/cpu_cfg_x86.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/config/debug/debug_cfg.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/config/fs/fs_cfg.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/config/gjb/gjb_cfg.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/config/kernel/cache_cfg.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/config/kernel/container_cfg.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/config/kernel/endian_cfg.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/config/kernel/kernel_cfg.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/config/kernel/memory_cfg.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/config/kernel/vmm_cfg.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/config/loader/loader_cfg.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/config/mosipc/mosipc_cfg.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/config/mp/mp_cfg.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/config/net/net_cfg.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/config/net/net_tools_cfg.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/config/posix/posix_cfg.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/config/shell/shell_cfg.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/config/symbol/symbol_cfg.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/config/system/system_cfg.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/fs/mount/mount.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/fs/yaffs2/yaffs_sylixosapi.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include/arch/arch_inc.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include/arch/x86/arch_compiler.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include/arch/x86/arch_float.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include/arch/x86/arch_limits.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include/arch/x86/arch_mmu.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include/arch/x86/arch_mmu64.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include/arch/x86/arch_pc.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include/arch/x86/arch_regs.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include/arch/x86/arch_regs64.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/include/arch/x86/arch_types.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/cache/cache.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/include/k_api.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/include/k_class.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/include/k_cpu.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/include/k_error.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/include/k_functype.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/include/k_hook.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/include/k_kernel.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/include/k_object.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/include/k_option.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/include/k_pconst.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/include/k_perror.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/include/k_priority.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/include/k_ptype.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/include/k_routine.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/include/k_typemacro.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/include/k_value.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/list/list.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/list/listType.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/resource/resource.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/threadext/threadext.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/tree/tree.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/tree/treeType.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/vmm/vmm.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/vmm/vmmMmap.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/kernel/vutex/vutex.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/lib/lib_lib.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/lib/lib_private.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/lib/libc/assert/lib_assert.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/lib/libc/ctype/lib_ctype.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/lib/libc/float/lib_float.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/lib/libc/limits/lib_limits.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/lib/libc/stdarg/lib_stdarg.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/lib/libc/stdio/lib_stdio.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/lib/libc/stdlib/lib_stdlib.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/lib/libc/string/lib_string.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/lib/libc/time/lib_time.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/lib/nl_compatible/nl_reent.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/mpi/include/mpi_api.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/mpi/include/mpi_error.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/mpi/include/mpi_object.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/net/lwip/tools/ftp/lwip_ftp.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/net/lwip/tools/nat/lwip_nat.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/net/lwip/tools/netbios/lwip_netbios.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/net/lwip/tools/npf/lwip_npf.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/net/lwip/tools/ping6/lwip_ping6.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/net/lwip/tools/ping/lwip_ping.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/net/lwip/tools/qos/lwip_qos.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/net/lwip/tools/telnet/lwip_telnet.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/net/lwip/tools/tftp/lwip_tftp.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/net/lwip/tools/vlan/lwip_vlan.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/net/lwip/tools/vpn/lwip_vpn.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/posix/include/px_pthread_attr.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/posix/include/px_sched_param.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/shell/getopt/getopt.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/shell/getopt/getopt_long.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/shell/getopt/getopt_var.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/shell/include/ttiny_shell_api.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/shell/include/ttiny_shell_error.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/shell/include/ttiny_shell_option.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/shell/ttinyShell/ttinyShell.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/shell/ttinyShell/ttinyShellColor.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/shell/ttinyVar/ttinyVar.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/symbol/symTable/symTable.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/bus/busSystem.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/device/block/blockIo.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/device/buzzer/buzzer.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/device/can/can.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/device/graph/gmemDev.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/device/hwrtc/hwrtc.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/device/pipe/pipe.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/device/pty/pty.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/device/spipe/spipe.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/device/ty/tty.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/distribute/distribute.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/hotplugLib/hotplugLib.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/include/s_api.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/include/s_const.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/include/s_dirent.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/include/s_error.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/include/s_fcntl.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/include/s_object.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/include/s_option.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/include/s_stat.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/include/s_type.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/include/s_utime.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/pm/pmSystem.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/ptimer/ptimer.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/select/select.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/signal/signal.h \
+  D:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS/system/util/sioLib.h
+
 src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/asymdisconnect.c.o: D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/asymdisconnect.c \
   D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/include/dds/dds.h \
   D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/include/dds/ddsc/dds_basic_types.h \
@@ -27316,6 +27490,8 @@ src/core/ddsc/tests/take_instance.h:
 
 D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/SerdataData.h:
 
+D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/XSpaceTypeConsistencyEnforcement.c:
+
 D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/whc.c:
 
 D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/TypeBuilderTypes.c:
@@ -27323,6 +27499,8 @@ D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/TypeBuilderT
 D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/TypeBuilderTypes.h:
 
 D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/readcondition.c:
+
+D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/XSpaceTypeConsistencyEnforcement.h:
 
 D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/TypesArrayKey.c:
 
@@ -27743,8 +27921,6 @@ D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/waitset.c:
 src/core/ddsc/tests/write_various_types.h:
 
 D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/writer.c:
-
-D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/XSpaceTypeConsistencyEnforcement.h:
 
 D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsi/include/dds/ddsi/ddsi_xt_typelookup.h:
 

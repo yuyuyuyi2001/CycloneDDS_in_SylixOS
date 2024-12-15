@@ -241,6 +241,8 @@ add_cunit_executable(
   XSpaceEnum.h
   XSpaceMustUnderstand.c
   XSpaceMustUnderstand.h
+  XSpaceTypeConsistencyEnforcement.c
+  XSpaceTypeConsistencyEnforcement.h
   XSpaceNoTypeInfo.c
   XSpaceNoTypeInfo.h
   TypeBuilderTypes.c

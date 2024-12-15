@@ -250,6 +250,8 @@ C_FLAGS =  -ID:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS -ID:/Rea
 
 # Custom flags: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceMustUnderstand.c.o_FLAGS = -Wno-missing-field-initializers
 
+# Custom flags: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceTypeConsistencyEnforcement.c.o_FLAGS = -Wno-missing-field-initializers
+
 # Custom flags: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/XSpaceNoTypeInfo.c.o_FLAGS = -Wno-missing-field-initializers
 
 # Custom flags: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/TypeBuilderTypes.c.o_FLAGS = -Wno-missing-field-initializers
