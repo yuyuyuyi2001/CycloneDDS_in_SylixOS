@@ -214,7 +214,7 @@ CU_TheoryDataPoints(ddsrt_gethostbyname, ipv6) = {
 #if DDSRT_HAVE_IPV6 && DDSRT_HAVE_DNS
   CU_DataPoints(char *,        "::1",                      "::1",          "::1"),
   CU_DataPoints(int,           AF_INET,                    AF_INET6,       AF_UNSPEC),
-  CU_DataPoints(dds_return_t, DDS_RETCODE_HOST_NOT_FOUND, DDS_RETCODE_OK, DDS_RETCODE_OK)
+  CU_DataPoints(dds_return_t, DDS_RETCODE_NO_DATA, DDS_RETCODE_OK, DDS_RETCODE_OK)
 #endif /* DDSRT_HAVE_IPV6 */
 };
 

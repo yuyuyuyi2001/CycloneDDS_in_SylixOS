@@ -1,0 +1,1169 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      The target system is: SylixOS -  - aarch64
+      The host system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc.exe 
+      Build flags: -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS;-ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include;-ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network;-mcpu=generic;-fno-omit-frame-pointer;-mstrict-align;-ffixed-x18;-fno-strict-aliasing;-Wall;-fmessage-length=0;-fsigned-char;-fno-short-enums;-fPIC;-DSYLIXOS
+      Id flags:  
+      
+      The output was:
+      0
+      d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000400000
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/3.31.0/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-g++.exe 
+      Build flags: -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS;-ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include;-ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network;-mcpu=generic;-fno-omit-frame-pointer;-mstrict-align;-ffixed-x18;-fno-strict-aliasing;-Wall;-fmessage-length=0;-fsigned-char;-fno-short-enums;-fPIC;-DSYLIXOS;-fno-exceptions;-fno-rtti
+      Id flags:  
+      
+      The output was:
+      0
+      d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000400000
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/3.31.0/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-bg4p3q"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-bg4p3q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS  "
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g3 -gdwarf-2"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -Wl,-shared -fPIC -shared  "
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-bg4p3q'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile cmTC_0f5e0/fast
+        make  -f CMakeFiles/cmTC_0f5e0.dir/build.make CMakeFiles/cmTC_0f5e0.dir/build
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-bg4p3q'
+        Building C object CMakeFiles/cmTC_0f5e0.dir/CMakeCCompilerABI.c.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc.exe   -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS      -v -o CMakeFiles/cmTC_0f5e0.dir/CMakeCCompilerABI.c.o -c /D/CMake/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=D:\\RealEvo\\compiler\\aarch64-sylixos-toolchain\\bin\\aarch64-sylixos-elf-gcc.exe
+        Target: aarch64-sylixos-elf
+        Configured with: /home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=aarch64-sylixos-elf --prefix=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw --libexecdir=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw/lib --infodir=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw/share/doc/gcc-aarch64-sylixos-elf/info --mandir=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw/share/doc/gcc-aarch64-sylixos-elf/man --htmldir=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw/share/doc/gcc-aarch64-sylixos-elf/html --pdfdir=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw/share/doc/gcc-aarch64-sylixos-elf/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --enable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --enable-threads=posix --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-aarch64-sylixos-elf --with-sysroot=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw/aarch64-sylixos-elf --with-libiconv-prefix=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/build-mingw/host-libs/usr --with-gmp=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/build-mingw/host-libs/usr --with-mpfr=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/build-mingw/host-libs/usr --with-mpc=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/build-mingw/host-libs/usr --with-isl=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/build-mingw/host-libs/usr --with-libelf=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU ARM64 SylixOS Toolchain 10-2023-q4-major'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 10.2.1 20201103 (release) (GNU ARM64 SylixOS Toolchain 10-2023-q4-major) 
+        COLLECT_GCC_OPTIONS='-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS' '-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include' '-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network' '-mcpu=generic' '-fno-omit-frame-pointer' '-mstrict-align' '-ffixed-x18' '-fno-strict-aliasing' '-Wall' '-fmessage-length=0' '-fsigned-char' '-fno-short-enums' '-fPIC' '-D' 'SYLIXOS' '-v' '-o' 'CMakeFiles/cmTC_0f5e0.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+         d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/cc1.exe -quiet -v -I D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -I D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -I D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -imultilib pic/fixed-x18 -iprefix d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../lib/gcc/aarch64-sylixos-elf/10.2.1/ -isysroot d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../aarch64-sylixos-elf -D SYLIXOS D:/CMake/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=generic -mstrict-align -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_0f5e0.dir/CMakeCCompilerABI.c.o -Wall -version -fno-omit-frame-pointer -ffixed-x18 -fno-strict-aliasing -fmessage-length=0 -fsigned-char -fno-short-enums -fPIC -o D:\\MSYS2\\tmp\\cc3qGVhY.s
+        GNU C17 (GNU ARM64 SylixOS Toolchain 10-2023-q4-major) version 10.2.1 20201103 (release) (aarch64-sylixos-elf)
+        	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "d:/realevo/compiler/aarch64-sylixos-toolchain/lib/gcc/../../lib/gcc/aarch64-sylixos-elf/10.2.1/include"
+        ignoring nonexistent directory "d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../aarch64-sylixos-elf/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw/lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../include"
+        ignoring duplicate directory "d:/realevo/compiler/aarch64-sylixos-toolchain/lib/gcc/../../lib/gcc/aarch64-sylixos-elf/10.2.1/include-fixed"
+        ignoring duplicate directory "d:/realevo/compiler/aarch64-sylixos-toolchain/lib/gcc/../../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include"
+        ignoring nonexistent directory "d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../aarch64-sylixos-elf/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS
+         D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include
+         D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network
+         d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../lib/gcc/aarch64-sylixos-elf/10.2.1/include
+         d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../lib/gcc/aarch64-sylixos-elf/10.2.1/include-fixed
+         d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include
+        End of search list.
+        GNU C17 (GNU ARM64 SylixOS Toolchain 10-2023-q4-major) version 10.2.1 20201103 (release) (aarch64-sylixos-elf)
+        	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 5bb54cc4e0972186392150c6a85c09ce
+        COLLECT_GCC_OPTIONS='-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS' '-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include' '-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network' '-mcpu=generic' '-fno-omit-frame-pointer' '-mstrict-align' '-ffixed-x18' '-fno-strict-aliasing' '-Wall' '-fmessage-length=0' '-fsigned-char' '-fno-short-enums' '-fPIC' '-D' 'SYLIXOS' '-v' '-o' 'CMakeFiles/cmTC_0f5e0.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+         d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/bin/as.exe -v -I D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -I D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -I D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -EL -march=armv8-a -mabi=lp64 -o CMakeFiles/cmTC_0f5e0.dir/CMakeCCompilerABI.c.o D:\\MSYS2\\tmp\\cc3qGVhY.s
+        GNU assembler version 2.35.1 (aarch64-sylixos-elf) using BFD version (GNU ARM64 SylixOS Toolchain 10-2023-q4-major) 2.35.1.20201028
+        COMPILER_PATH=d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/;d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/;d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/bin/
+        LIBRARY_PATH=d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/pic/fixed-x18/;d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/lib/pic/fixed-x18/;d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../aarch64-sylixos-elf/lib/pic/fixed-x18/;d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/;d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/;d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/lib/;d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../aarch64-sylixos-elf/lib/
+        COLLECT_GCC_OPTIONS='-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS' '-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include' '-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network' '-mcpu=generic' '-fno-omit-frame-pointer' '-mstrict-align' '-ffixed-x18' '-fno-strict-aliasing' '-Wall' '-fmessage-length=0' '-fsigned-char' '-fno-short-enums' '-fPIC' '-D' 'SYLIXOS' '-v' '-o' 'CMakeFiles/cmTC_0f5e0.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+        Linking C static library libcmTC_0f5e0.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/cmTC_0f5e0.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_0f5e0.dir/link.txt --verbose=1
+        aarch64-sylixos-elf-ar qc libcmTC_0f5e0.a CMakeFiles/cmTC_0f5e0.dir/CMakeCCompilerABI.c.o
+        aarch64-sylixos-elf-ranlib libcmTC_0f5e0.a
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-bg4p3q'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS]
+          add: [D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include]
+          add: [D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network]
+          add: [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/include]
+          add: [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/include-fixed]
+          add: [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include]
+        end of search list found
+        collapse include dir [D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS] ==> [D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS]
+        collapse include dir [D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include] ==> [D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include]
+        collapse include dir [D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network] ==> [D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network]
+        collapse include dir [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/include] ==> [D:/RealEvo/compiler/aarch64-sylixos-toolchain/lib/gcc/aarch64-sylixos-elf/10.2.1/include]
+        collapse include dir [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/include-fixed] ==> [D:/RealEvo/compiler/aarch64-sylixos-toolchain/lib/gcc/aarch64-sylixos-elf/10.2.1/include-fixed]
+        collapse include dir [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include] ==> [D:/RealEvo/compiler/aarch64-sylixos-toolchain/aarch64-sylixos-elf/include]
+        implicit include dirs: [D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS;D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include;D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network;D:/RealEvo/compiler/aarch64-sylixos-toolchain/lib/gcc/aarch64-sylixos-elf/10.2.1/include;D:/RealEvo/compiler/aarch64-sylixos-toolchain/lib/gcc/aarch64-sylixos-elf/10.2.1/include-fixed;D:/RealEvo/compiler/aarch64-sylixos-toolchain/aarch64-sylixos-elf/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(aarch64-sylixos-elf-g\\+\\+\\.exe|;ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(aarch64-sylixos-elf-g\\+\\+\\.exe|;ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-bg4p3q']
+        ignore line: []
+        ignore line: [Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile cmTC_0f5e0/fast]
+        ignore line: [make  -f CMakeFiles/cmTC_0f5e0.dir/build.make CMakeFiles/cmTC_0f5e0.dir/build]
+        ignore line: [make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-bg4p3q']
+        ignore line: [Building C object CMakeFiles/cmTC_0f5e0.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc.exe   -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS      -v -o CMakeFiles/cmTC_0f5e0.dir/CMakeCCompilerABI.c.o -c /D/CMake/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\RealEvo\\compiler\\aarch64-sylixos-toolchain\\bin\\aarch64-sylixos-elf-gcc.exe]
+        ignore line: [Target: aarch64-sylixos-elf]
+        ignore line: [Configured with: /home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=aarch64-sylixos-elf --prefix=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw --libexecdir=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw/lib --infodir=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw/share/doc/gcc-aarch64-sylixos-elf/info --mandir=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw/share/doc/gcc-aarch64-sylixos-elf/man --htmldir=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw/share/doc/gcc-aarch64-sylixos-elf/html --pdfdir=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw/share/doc/gcc-aarch64-sylixos-elf/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --enable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --enable-threads=posix --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-aarch64-sylixos-elf --with-sysroot=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw/aarch64-sylixos-elf --with-libiconv-prefix=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/build-mingw/host-libs/usr --with-gmp=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/build-mingw/host-libs/usr --with-mpfr=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/build-mingw/host-libs/usr --with-mpc=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/build-mingw/host-libs/usr --with-isl=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/build-mingw/host-libs/usr --with-libelf=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU ARM64 SylixOS Toolchain 10-2023-q4-major']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 10.2.1 20201103 (release) (GNU ARM64 SylixOS Toolchain 10-2023-q4-major) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS' '-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include' '-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network' '-mcpu=generic' '-fno-omit-frame-pointer' '-mstrict-align' '-ffixed-x18' '-fno-strict-aliasing' '-Wall' '-fmessage-length=0' '-fsigned-char' '-fno-short-enums' '-fPIC' '-D' 'SYLIXOS' '-v' '-o' 'CMakeFiles/cmTC_0f5e0.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [ d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/cc1.exe -quiet -v -I D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -I D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -I D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -imultilib pic/fixed-x18 -iprefix d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../lib/gcc/aarch64-sylixos-elf/10.2.1/ -isysroot d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../aarch64-sylixos-elf -D SYLIXOS D:/CMake/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=generic -mstrict-align -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_0f5e0.dir/CMakeCCompilerABI.c.o -Wall -version -fno-omit-frame-pointer -ffixed-x18 -fno-strict-aliasing -fmessage-length=0 -fsigned-char -fno-short-enums -fPIC -o D:\\MSYS2\\tmp\\cc3qGVhY.s]
+        ignore line: [GNU C17 (GNU ARM64 SylixOS Toolchain 10-2023-q4-major) version 10.2.1 20201103 (release) (aarch64-sylixos-elf)]
+        ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "d:/realevo/compiler/aarch64-sylixos-toolchain/lib/gcc/../../lib/gcc/aarch64-sylixos-elf/10.2.1/include"]
+        ignore line: [ignoring nonexistent directory "d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../aarch64-sylixos-elf/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw/lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "d:/realevo/compiler/aarch64-sylixos-toolchain/lib/gcc/../../lib/gcc/aarch64-sylixos-elf/10.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "d:/realevo/compiler/aarch64-sylixos-toolchain/lib/gcc/../../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include"]
+        ignore line: [ignoring nonexistent directory "d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../aarch64-sylixos-elf/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS]
+        ignore line: [ D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include]
+        ignore line: [ D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network]
+        ignore line: [ d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../lib/gcc/aarch64-sylixos-elf/10.2.1/include]
+        ignore line: [ d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../lib/gcc/aarch64-sylixos-elf/10.2.1/include-fixed]
+        ignore line: [ d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (GNU ARM64 SylixOS Toolchain 10-2023-q4-major) version 10.2.1 20201103 (release) (aarch64-sylixos-elf)]
+        ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 5bb54cc4e0972186392150c6a85c09ce]
+        ignore line: [COLLECT_GCC_OPTIONS='-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS' '-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include' '-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network' '-mcpu=generic' '-fno-omit-frame-pointer' '-mstrict-align' '-ffixed-x18' '-fno-strict-aliasing' '-Wall' '-fmessage-length=0' '-fsigned-char' '-fno-short-enums' '-fPIC' '-D' 'SYLIXOS' '-v' '-o' 'CMakeFiles/cmTC_0f5e0.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [ d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/bin/as.exe -v -I D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -I D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -I D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -EL -march=armv8-a -mabi=lp64 -o CMakeFiles/cmTC_0f5e0.dir/CMakeCCompilerABI.c.o D:\\MSYS2\\tmp\\cc3qGVhY.s]
+        ignore line: [GNU assembler version 2.35.1 (aarch64-sylixos-elf) using BFD version (GNU ARM64 SylixOS Toolchain 10-2023-q4-major) 2.35.1.20201028]
+        ignore line: [COMPILER_PATH=d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/]
+        ignore line: [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/]
+        ignore line: [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/bin/]
+        ignore line: [LIBRARY_PATH=d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/pic/fixed-x18/]
+        ignore line: [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/lib/pic/fixed-x18/]
+        ignore line: [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../aarch64-sylixos-elf/lib/pic/fixed-x18/]
+        ignore line: [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/]
+        ignore line: [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/]
+        ignore line: [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/lib/]
+        ignore line: [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../aarch64-sylixos-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS' '-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include' '-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network' '-mcpu=generic' '-fno-omit-frame-pointer' '-mstrict-align' '-ffixed-x18' '-fno-strict-aliasing' '-Wall' '-fmessage-length=0' '-fsigned-char' '-fno-short-enums' '-fPIC' '-D' 'SYLIXOS' '-v' '-o' 'CMakeFiles/cmTC_0f5e0.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [Linking C static library libcmTC_0f5e0.a]
+        ignore line: [/D/CMake/bin/cmake.exe -P CMakeFiles/cmTC_0f5e0.dir/cmake_clean_target.cmake]
+        ignore line: [/D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_0f5e0.dir/link.txt --verbose=1]
+        ignore line: [aarch64-sylixos-elf-ar qc libcmTC_0f5e0.a CMakeFiles/cmTC_0f5e0.dir/CMakeCCompilerABI.c.o]
+        ignore line: [aarch64-sylixos-elf-ranlib libcmTC_0f5e0.a]
+        ignore line: [make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-bg4p3q']
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-eva6rm"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-eva6rm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS   -fno-exceptions -fno-rtti "
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g3 -gdwarf-2"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -Wl,-shared -fPIC -shared  "
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-eva6rm'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile cmTC_09b15/fast
+        make  -f CMakeFiles/cmTC_09b15.dir/build.make CMakeFiles/cmTC_09b15.dir/build
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-eva6rm'
+        Building CXX object CMakeFiles/cmTC_09b15.dir/CMakeCXXCompilerABI.cpp.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-g++.exe   -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS   -fno-exceptions -fno-rtti     -v -o CMakeFiles/cmTC_09b15.dir/CMakeCXXCompilerABI.cpp.o -c /D/CMake/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=D:\\RealEvo\\compiler\\aarch64-sylixos-toolchain\\bin\\aarch64-sylixos-elf-g++.exe
+        Target: aarch64-sylixos-elf
+        Configured with: /home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=aarch64-sylixos-elf --prefix=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw --libexecdir=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw/lib --infodir=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw/share/doc/gcc-aarch64-sylixos-elf/info --mandir=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw/share/doc/gcc-aarch64-sylixos-elf/man --htmldir=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw/share/doc/gcc-aarch64-sylixos-elf/html --pdfdir=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw/share/doc/gcc-aarch64-sylixos-elf/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --enable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --enable-threads=posix --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-aarch64-sylixos-elf --with-sysroot=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw/aarch64-sylixos-elf --with-libiconv-prefix=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/build-mingw/host-libs/usr --with-gmp=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/build-mingw/host-libs/usr --with-mpfr=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/build-mingw/host-libs/usr --with-mpc=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/build-mingw/host-libs/usr --with-isl=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/build-mingw/host-libs/usr --with-libelf=/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU ARM64 SylixOS Toolchain 10-2023-q4-major'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 10.2.1 20201103 (release) (GNU ARM64 SylixOS Toolchain 10-2023-q4-major) 
+        COLLECT_GCC_OPTIONS='-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS' '-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include' '-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network' '-mcpu=generic' '-fno-omit-frame-pointer' '-mstrict-align' '-ffixed-x18' '-fno-strict-aliasing' '-Wall' '-fmessage-length=0' '-fsigned-char' '-fno-short-enums' '-fPIC' '-D' 'SYLIXOS' '-fno-exceptions' '-fno-rtti' '-v' '-o' 'CMakeFiles/cmTC_09b15.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlittle-endian' '-mabi=lp64'
+         d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/cc1plus.exe -quiet -v -I D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -I D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -I D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -imultilib pic/fixed-x18 -iprefix d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../lib/gcc/aarch64-sylixos-elf/10.2.1/ -isysroot d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../aarch64-sylixos-elf -D SYLIXOS D:/CMake/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=generic -mstrict-align -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_09b15.dir/CMakeCXXCompilerABI.cpp.o -Wall -version -fno-omit-frame-pointer -ffixed-x18 -fno-strict-aliasing -fmessage-length=0 -fsigned-char -fno-short-enums -fPIC -fno-exceptions -fno-rtti -o D:\\MSYS2\\tmp\\cc8kNDuS.s
+        GNU C++14 (GNU ARM64 SylixOS Toolchain 10-2023-q4-major) version 10.2.1 20201103 (release) (aarch64-sylixos-elf)
+        	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "d:/realevo/compiler/aarch64-sylixos-toolchain/lib/gcc/../../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include/c++/10.2.1"
+        ignoring duplicate directory "d:/realevo/compiler/aarch64-sylixos-toolchain/lib/gcc/../../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include/c++/10.2.1/aarch64-sylixos-elf/pic/fixed-x18"
+        ignoring duplicate directory "d:/realevo/compiler/aarch64-sylixos-toolchain/lib/gcc/../../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include/c++/10.2.1/backward"
+        ignoring duplicate directory "d:/realevo/compiler/aarch64-sylixos-toolchain/lib/gcc/../../lib/gcc/aarch64-sylixos-elf/10.2.1/include"
+        ignoring nonexistent directory "d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../aarch64-sylixos-elf/home/user/toolchains/gcc-aarch64-sylixos-elf-10-2020-q4-major/install-mingw/lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../include"
+        ignoring duplicate directory "d:/realevo/compiler/aarch64-sylixos-toolchain/lib/gcc/../../lib/gcc/aarch64-sylixos-elf/10.2.1/include-fixed"
+        ignoring duplicate directory "d:/realevo/compiler/aarch64-sylixos-toolchain/lib/gcc/../../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include"
+        ignoring nonexistent directory "d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../aarch64-sylixos-elf/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS
+         D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include
+         D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network
+         d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include/c++/10.2.1
+         d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include/c++/10.2.1/aarch64-sylixos-elf/pic/fixed-x18
+         d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include/c++/10.2.1/backward
+         d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../lib/gcc/aarch64-sylixos-elf/10.2.1/include
+         d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../lib/gcc/aarch64-sylixos-elf/10.2.1/include-fixed
+         d:\\realevo\\compiler\\aarch64-sylixos-toolchain\\bin\\../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include
+        End of search list.
+        GNU C++14 (GNU ARM64 SylixOS Toolchain 10-2023-q4-major) version 10.2.1 20201103 (release) (aarch64-sylixos-elf)
+        	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 2730aea85ca2293a182fe9415118496c
+        COLLECT_GCC_OPTIONS='-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS' '-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include' '-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network' '-mcpu=generic' '-fno-omit-frame-pointer' '-mstrict-align' '-ffixed-x18' '-fno-strict-aliasing' '-Wall' '-fmessage-length=0' '-fsigned-char' '-fno-short-enums' '-fPIC' '-D' 'SYLIXOS' '-fno-exceptions' '-fno-rtti' '-v' '-o' 'CMakeFiles/cmTC_09b15.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlittle-endian' '-mabi=lp64'
+         d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/bin/as.exe -v -I D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -I D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -I D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -EL -march=armv8-a -mabi=lp64 -o CMakeFiles/cmTC_09b15.dir/CMakeCXXCompilerABI.cpp.o D:\\MSYS2\\tmp\\cc8kNDuS.s
+        GNU assembler version 2.35.1 (aarch64-sylixos-elf) using BFD version (GNU ARM64 SylixOS Toolchain 10-2023-q4-major) 2.35.1.20201028
+        COMPILER_PATH=d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/;d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/;d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/bin/
+        LIBRARY_PATH=d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/pic/fixed-x18/;d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/lib/pic/fixed-x18/;d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../aarch64-sylixos-elf/lib/pic/fixed-x18/;d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/;d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/;d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/lib/;d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../aarch64-sylixos-elf/lib/
+        COLLECT_GCC_OPTIONS='-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS' '-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include' '-I' 'D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network' '-mcpu=generic' '-fno-omit-frame-pointer' '-mstrict-align' '-ffixed-x18' '-fno-strict-aliasing' '-Wall' '-fmessage-length=0' '-fsigned-char' '-fno-short-enums' '-fPIC' '-D' 'SYLIXOS' '-fno-exceptions' '-fno-rtti' '-v' '-o' 'CMakeFiles/cmTC_09b15.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlittle-endian' '-mabi=lp64'
+        Linking CXX static library libcmTC_09b15.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/cmTC_09b15.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_09b15.dir/link.txt --verbose=1
+        aarch64-sylixos-elf-ar qc libcmTC_09b15.a CMakeFiles/cmTC_09b15.dir/CMakeCXXCompilerABI.cpp.o
+        aarch64-sylixos-elf-ranlib libcmTC_09b15.a
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-eva6rm'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS]
+          add: [D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include]
+          add: [D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network]
+          add: [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include/c++/10.2.1]
+          add: [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include/c++/10.2.1/aarch64-sylixos-elf/pic/fixed-x18]
+          add: [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include/c++/10.2.1/backward]
+          add: [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/include]
+          add: [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/include-fixed]
+          add: [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include]
+        end of search list found
+        collapse include dir [D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS] ==> [D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS]
+        collapse include dir [D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include] ==> [D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include]
+        collapse include dir [D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network] ==> [D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network]
+        collapse include dir [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include/c++/10.2.1] ==> [D:/RealEvo/compiler/aarch64-sylixos-toolchain/aarch64-sylixos-elf/include/c++/10.2.1]
+        collapse include dir [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include/c++/10.2.1/aarch64-sylixos-elf/pic/fixed-x18] ==> [D:/RealEvo/compiler/aarch64-sylixos-toolchain/aarch64-sylixos-elf/include/c++/10.2.1/aarch64-sylixos-elf/pic/fixed-x18]
+        collapse include dir [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include/c++/10.2.1/backward] ==> [D:/RealEvo/compiler/aarch64-sylixos-toolchain/aarch64-sylixos-elf/include/c++/10.2.1/backward]
+        collapse include dir [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/include] ==> [D:/RealEvo/compiler/aarch64-sylixos-toolchain/lib/gcc/aarch64-sylixos-elf/10.2.1/include]
+        collapse include dir [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/include-fixed] ==> [D:/RealEvo/compiler/aarch64-sylixos-toolchain/lib/gcc/aarch64-sylixos-elf/10.2.1/include-fixed]
+        collapse include dir [d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/include] ==> [D:/RealEvo/compiler/aarch64-sylixos-toolchain/aarch64-sylixos-elf/include]
+        implicit include dirs: [D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS;D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include;D:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network;D:/RealEvo/compiler/aarch64-sylixos-toolchain/aarch64-sylixos-elf/include/c++/10.2.1;D:/RealEvo/compiler/aarch64-sylixos-toolchain/aarch64-sylixos-elf/include/c++/10.2.1/aarch64-sylixos-elf/pic/fixed-x18;D:/RealEvo/compiler/aarch64-sylixos-toolchain/aarch64-sylixos-elf/include/c++/10.2.1/backward;D:/RealEvo/compiler/aarch64-sylixos-toolchain/lib/gcc/aarch64-sylixos-elf/10.2.1/include;D:/RealEvo/compiler/aarch64-sylixos-toolchain/lib/gcc/aarch64-sylixos-elf/10.2.1/include-fixed;D:/RealEvo/compiler/aarch64-sylixos-toolchain/aarch64-sylixos-elf/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(aarch64-sylixos-elf-g\\+\\+\\.exe|;ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(aarch64-sylixos-elf-g\\+\\+\\.exe|;ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-eva6rm']
+        ignore line: []
+        ignore line: [Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile cmTC_09b15/fast]
+        ignore line: [make  -f CMakeFiles/cmTC_09b15.dir/build.make CMakeFiles/cmTC_09b15.dir/build]
+        ignore line: [make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-eva6rm']
+        ignore line: [Building CXX object CMakeFiles/cmTC_09b15.dir/CMakeCXXCompilerABI.cpp.o]
+        link line: [/D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-g++.exe   -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS   -fno-exceptions -fno-rtti     -v -o CMakeFiles/cmTC_09b15.dir/CMakeCXXCompilerABI.cpp.o -c /D/CMake/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+          arg [/D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-g++.exe] ==> ignore
+          arg [-ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS] ==> ignore
+          arg [-ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include] ==> ignore
+          arg [-ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network] ==> ignore
+          arg [-mcpu=generic] ==> ignore
+          arg [-fno-omit-frame-pointer] ==> ignore
+          arg [-mstrict-align] ==> ignore
+          arg [-ffixed-x18] ==> ignore
+          arg [-fno-strict-aliasing] ==> ignore
+          arg [-Wall] ==> ignore
+          arg [-fmessage-length=0] ==> ignore
+          arg [-fsigned-char] ==> ignore
+          arg [-fno-short-enums] ==> ignore
+          arg [-fPIC] ==> ignore
+          arg [-DSYLIXOS] ==> ignore
+          arg [-fno-exceptions] ==> ignore
+          arg [-fno-rtti] ==> ignore
+          arg [-v] ==> ignore
+          arg [-o] ==> ignore
+          arg [CMakeFiles/cmTC_09b15.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-c] ==> ignore
+          arg [/D/CMake/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp] ==> ignore
+        linker tool for 'CXX': /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-g++.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      Running the CXX compiler's linker: "/D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-g++.exe" "-v"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      Running the CXX compiler's linker: "/D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-g++.exe" "-V"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      Running the CXX compiler's linker: "/D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-g++.exe" "--version"
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "compat/CMakeLists.txt:3 (check_include_file)"
+    checks:
+      - "Looking for getopt.h"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-25bnls"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-25bnls"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS  "
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g3 -gdwarf-2"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -Wl,-shared -fPIC -shared  "
+      CMAKE_MODULE_PATH: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/cmake/Modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_GETOPT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-25bnls'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile cmTC_5f16d/fast
+        make  -f CMakeFiles/cmTC_5f16d.dir/build.make CMakeFiles/cmTC_5f16d.dir/build
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-25bnls'
+        Building C object CMakeFiles/cmTC_5f16d.dir/CheckIncludeFile.c.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc.exe   -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS    -std=gnu99 -o CMakeFiles/cmTC_5f16d.dir/CheckIncludeFile.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-25bnls/CheckIncludeFile.c
+        Linking C static library libcmTC_5f16d.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/cmTC_5f16d.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_5f16d.dir/link.txt --verbose=1
+        aarch64-sylixos-elf-ar qc libcmTC_5f16d.a CMakeFiles/cmTC_5f16d.dir/CheckIncludeFile.c.o
+        aarch64-sylixos-elf-ranlib libcmTC_5f16d.a
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-25bnls'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "D:/CMake/share/cmake-3.31/Modules/CheckCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/CMake/share/cmake-3.31/Modules/GenerateExportHeader.cmake:238 (check_compiler_flag)"
+      - "D:/CMake/share/cmake-3.31/Modules/GenerateExportHeader.cmake:419 (_test_compiler_hidden_visibility)"
+      - "cmake/Modules/GenerateExportHeader.cmake:86 (_GENERATE_EXPORT_HEADER)"
+      - "src/ucunit/CMakeLists.txt:34 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_HIDDEN_VISIBILITY"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-61t9y4"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-61t9y4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS   -fno-exceptions -fno-rtti "
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g3 -gdwarf-2"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -Wl,-shared -fPIC -shared  "
+      CMAKE_MODULE_PATH: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/cmake/Modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "COMPILER_HAS_HIDDEN_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-61t9y4'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile cmTC_4fc68/fast
+        make  -f CMakeFiles/cmTC_4fc68.dir/build.make CMakeFiles/cmTC_4fc68.dir/build
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-61t9y4'
+        Building CXX object CMakeFiles/cmTC_4fc68.dir/src.cxx.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-g++.exe -DCOMPILER_HAS_HIDDEN_VISIBILITY  -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS   -fno-exceptions -fno-rtti     -fvisibility=hidden -o CMakeFiles/cmTC_4fc68.dir/src.cxx.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-61t9y4/src.cxx
+        Linking CXX static library libcmTC_4fc68.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/cmTC_4fc68.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_4fc68.dir/link.txt --verbose=1
+        aarch64-sylixos-elf-ar qc libcmTC_4fc68.a CMakeFiles/cmTC_4fc68.dir/src.cxx.o
+        aarch64-sylixos-elf-ranlib libcmTC_4fc68.a
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-61t9y4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "D:/CMake/share/cmake-3.31/Modules/CheckCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "D:/CMake/share/cmake-3.31/Modules/GenerateExportHeader.cmake:239 (check_compiler_flag)"
+      - "D:/CMake/share/cmake-3.31/Modules/GenerateExportHeader.cmake:419 (_test_compiler_hidden_visibility)"
+      - "cmake/Modules/GenerateExportHeader.cmake:86 (_GENERATE_EXPORT_HEADER)"
+      - "src/ucunit/CMakeLists.txt:34 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-6c5hmc"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-6c5hmc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS   -fno-exceptions -fno-rtti "
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g3 -gdwarf-2"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -Wl,-shared -fPIC -shared  "
+      CMAKE_MODULE_PATH: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/cmake/Modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-6c5hmc'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile cmTC_275e8/fast
+        make  -f CMakeFiles/cmTC_275e8.dir/build.make CMakeFiles/cmTC_275e8.dir/build
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-6c5hmc'
+        Building CXX object CMakeFiles/cmTC_275e8.dir/src.cxx.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-g++.exe -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS   -fno-exceptions -fno-rtti     -fvisibility-inlines-hidden -o CMakeFiles/cmTC_275e8.dir/src.cxx.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-6c5hmc/src.cxx
+        Linking CXX static library libcmTC_275e8.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/cmTC_275e8.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_275e8.dir/link.txt --verbose=1
+        aarch64-sylixos-elf-ar qc libcmTC_275e8.a CMakeFiles/cmTC_275e8.dir/src.cxx.o
+        aarch64-sylixos-elf-ranlib libcmTC_275e8.a
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-6c5hmc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/CMake/share/cmake-3.31/Modules/CheckSourceCompiles.cmake:89 (cmake_check_source_compiles)"
+      - "D:/CMake/share/cmake-3.31/Modules/GenerateExportHeader.cmake:206 (check_source_compiles)"
+      - "D:/CMake/share/cmake-3.31/Modules/GenerateExportHeader.cmake:263 (_check_cxx_compiler_attribute)"
+      - "D:/CMake/share/cmake-3.31/Modules/GenerateExportHeader.cmake:420 (_test_compiler_has_deprecated)"
+      - "cmake/Modules/GenerateExportHeader.cmake:86 (_GENERATE_EXPORT_HEADER)"
+      - "src/ucunit/CMakeLists.txt:34 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-jr5gno"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-jr5gno"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS   -fno-exceptions -fno-rtti "
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g3 -gdwarf-2"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -Wl,-shared -fPIC -shared  "
+      CMAKE_MODULE_PATH: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/cmake/Modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_ATTR"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-jr5gno'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile cmTC_80c76/fast
+        make  -f CMakeFiles/cmTC_80c76.dir/build.make CMakeFiles/cmTC_80c76.dir/build
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-jr5gno'
+        Building CXX object CMakeFiles/cmTC_80c76.dir/src.cxx.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-g++.exe -DCOMPILER_HAS_DEPRECATED_ATTR  -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS   -fno-exceptions -fno-rtti   -o CMakeFiles/cmTC_80c76.dir/src.cxx.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-jr5gno/src.cxx
+        D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-jr5gno/src.cxx: In function 'int main()':
+        D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-jr5gno/src.cxx:2:34: warning: 'int somefunc()' is deprecated [-Wdeprecated-declarations]
+            2 |     int main() { return somefunc();}
+              |                                  ^
+        D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-jr5gno/src.cxx:1:37: note: declared here
+            1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+              |                                     ^~~~~~~~
+        Linking CXX static library libcmTC_80c76.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/cmTC_80c76.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_80c76.dir/link.txt --verbose=1
+        aarch64-sylixos-elf-ar qc libcmTC_80c76.a CMakeFiles/cmTC_80c76.dir/src.cxx.o
+        aarch64-sylixos-elf-ranlib libcmTC_80c76.a
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-jr5gno'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "D:/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "src/ddsrt/CMakeLists.txt:167 (check_symbol_exists)"
+    checks:
+      - "Looking for gethostname"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-lrnti9"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-lrnti9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS  "
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g3 -gdwarf-2"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -Wl,-shared -fPIC -shared  "
+      CMAKE_MODULE_PATH: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/cmake/Modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "DDSRT_HAVE_GETHOSTNAME"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-lrnti9'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile cmTC_3ab41/fast
+        make  -f CMakeFiles/cmTC_3ab41.dir/build.make CMakeFiles/cmTC_3ab41.dir/build
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-lrnti9'
+        Building C object CMakeFiles/cmTC_3ab41.dir/CheckSymbolExists.c.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc.exe   -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS    -std=gnu99 -o CMakeFiles/cmTC_3ab41.dir/CheckSymbolExists.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-lrnti9/CheckSymbolExists.c
+        Linking C static library libcmTC_3ab41.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/cmTC_3ab41.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_3ab41.dir/link.txt --verbose=1
+        aarch64-sylixos-elf-ar qc libcmTC_3ab41.a CMakeFiles/cmTC_3ab41.dir/CheckSymbolExists.c.o
+        aarch64-sylixos-elf-ranlib libcmTC_3ab41.a
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-lrnti9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "D:/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "src/ddsrt/CMakeLists.txt:168 (check_symbol_exists)"
+    checks:
+      - "Looking for inet_ntop"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-nnf44q"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-nnf44q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS  "
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g3 -gdwarf-2"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -Wl,-shared -fPIC -shared  "
+      CMAKE_MODULE_PATH: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/cmake/Modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "DDSRT_HAVE_INET_NTOP"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-nnf44q'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile cmTC_8e15a/fast
+        make  -f CMakeFiles/cmTC_8e15a.dir/build.make CMakeFiles/cmTC_8e15a.dir/build
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-nnf44q'
+        Building C object CMakeFiles/cmTC_8e15a.dir/CheckSymbolExists.c.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc.exe   -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS    -std=gnu99 -o CMakeFiles/cmTC_8e15a.dir/CheckSymbolExists.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-nnf44q/CheckSymbolExists.c
+        Linking C static library libcmTC_8e15a.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/cmTC_8e15a.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8e15a.dir/link.txt --verbose=1
+        aarch64-sylixos-elf-ar qc libcmTC_8e15a.a CMakeFiles/cmTC_8e15a.dir/CheckSymbolExists.c.o
+        aarch64-sylixos-elf-ranlib libcmTC_8e15a.a
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-nnf44q'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "D:/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "src/ddsrt/CMakeLists.txt:169 (check_symbol_exists)"
+    checks:
+      - "Looking for inet_pton"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-weowcn"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-weowcn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS  "
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g3 -gdwarf-2"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -Wl,-shared -fPIC -shared  "
+      CMAKE_MODULE_PATH: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/cmake/Modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "DDSRT_HAVE_INET_PTON"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-weowcn'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile cmTC_25eba/fast
+        make  -f CMakeFiles/cmTC_25eba.dir/build.make CMakeFiles/cmTC_25eba.dir/build
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-weowcn'
+        Building C object CMakeFiles/cmTC_25eba.dir/CheckSymbolExists.c.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc.exe   -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS    -std=gnu99 -o CMakeFiles/cmTC_25eba.dir/CheckSymbolExists.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-weowcn/CheckSymbolExists.c
+        Linking C static library libcmTC_25eba.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/cmTC_25eba.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_25eba.dir/link.txt --verbose=1
+        aarch64-sylixos-elf-ar qc libcmTC_25eba.a CMakeFiles/cmTC_25eba.dir/CheckSymbolExists.c.o
+        aarch64-sylixos-elf-ranlib libcmTC_25eba.a
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-weowcn'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "D:/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "src/ddsrt/CMakeLists.txt:170 (check_symbol_exists)"
+    checks:
+      - "Looking for getaddrinfo"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-7bhegj"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-7bhegj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS  "
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g3 -gdwarf-2"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -Wl,-shared -fPIC -shared  "
+      CMAKE_MODULE_PATH: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/cmake/Modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "DDSRT_HAVE_GETADDRINFO"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-7bhegj'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile cmTC_f55c4/fast
+        make  -f CMakeFiles/cmTC_f55c4.dir/build.make CMakeFiles/cmTC_f55c4.dir/build
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-7bhegj'
+        Building C object CMakeFiles/cmTC_f55c4.dir/CheckSymbolExists.c.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc.exe   -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS    -std=gnu99 -o CMakeFiles/cmTC_f55c4.dir/CheckSymbolExists.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-7bhegj/CheckSymbolExists.c
+        Linking C static library libcmTC_f55c4.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/cmTC_f55c4.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_f55c4.dir/link.txt --verbose=1
+        aarch64-sylixos-elf-ar qc libcmTC_f55c4.a CMakeFiles/cmTC_f55c4.dir/CheckSymbolExists.c.o
+        aarch64-sylixos-elf-ranlib libcmTC_f55c4.a
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-7bhegj'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "D:/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "src/ddsrt/CMakeLists.txt:171 (check_symbol_exists)"
+    checks:
+      - "Looking for gethostbyname_r"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-g21hwm"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-g21hwm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS  "
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g3 -gdwarf-2"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -Wl,-shared -fPIC -shared  "
+      CMAKE_MODULE_PATH: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/cmake/Modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "DDSRT_HAVE_GETHOSTBYNAME_R"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-g21hwm'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile cmTC_4bdc2/fast
+        make  -f CMakeFiles/cmTC_4bdc2.dir/build.make CMakeFiles/cmTC_4bdc2.dir/build
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-g21hwm'
+        Building C object CMakeFiles/cmTC_4bdc2.dir/CheckSymbolExists.c.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc.exe   -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS    -std=gnu99 -o CMakeFiles/cmTC_4bdc2.dir/CheckSymbolExists.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-g21hwm/CheckSymbolExists.c
+        Linking C static library libcmTC_4bdc2.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/cmTC_4bdc2.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_4bdc2.dir/link.txt --verbose=1
+        aarch64-sylixos-elf-ar qc libcmTC_4bdc2.a CMakeFiles/cmTC_4bdc2.dir/CheckSymbolExists.c.o
+        aarch64-sylixos-elf-ranlib libcmTC_4bdc2.a
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-g21hwm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "D:/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:262 (check_include_file)"
+      - "src/ddsrt/CMakeLists.txt:177 (check_type_size)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-pk0yt3"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-pk0yt3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS  "
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g3 -gdwarf-2"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -Wl,-shared -fPIC -shared  "
+      CMAKE_MODULE_PATH: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/cmake/Modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-pk0yt3'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile cmTC_072b1/fast
+        make  -f CMakeFiles/cmTC_072b1.dir/build.make CMakeFiles/cmTC_072b1.dir/build
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-pk0yt3'
+        Building C object CMakeFiles/cmTC_072b1.dir/CheckIncludeFile.c.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc.exe   -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS    -std=gnu99 -o CMakeFiles/cmTC_072b1.dir/CheckIncludeFile.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-pk0yt3/CheckIncludeFile.c
+        Linking C static library libcmTC_072b1.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/cmTC_072b1.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_072b1.dir/link.txt --verbose=1
+        aarch64-sylixos-elf-ar qc libcmTC_072b1.a CMakeFiles/cmTC_072b1.dir/CheckIncludeFile.c.o
+        aarch64-sylixos-elf-ranlib libcmTC_072b1.a
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-pk0yt3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "D:/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:263 (check_include_file)"
+      - "src/ddsrt/CMakeLists.txt:177 (check_type_size)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-rw3tqs"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-rw3tqs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS  "
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g3 -gdwarf-2"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -Wl,-shared -fPIC -shared  "
+      CMAKE_MODULE_PATH: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/cmake/Modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-rw3tqs'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile cmTC_6a644/fast
+        make  -f CMakeFiles/cmTC_6a644.dir/build.make CMakeFiles/cmTC_6a644.dir/build
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-rw3tqs'
+        Building C object CMakeFiles/cmTC_6a644.dir/CheckIncludeFile.c.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc.exe   -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS    -std=gnu99 -o CMakeFiles/cmTC_6a644.dir/CheckIncludeFile.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-rw3tqs/CheckIncludeFile.c
+        Linking C static library libcmTC_6a644.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/cmTC_6a644.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_6a644.dir/link.txt --verbose=1
+        aarch64-sylixos-elf-ar qc libcmTC_6a644.a CMakeFiles/cmTC_6a644.dir/CheckIncludeFile.c.o
+        aarch64-sylixos-elf-ranlib libcmTC_6a644.a
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-rw3tqs'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "D:/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:264 (check_include_file)"
+      - "src/ddsrt/CMakeLists.txt:177 (check_type_size)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-hr6c53"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-hr6c53"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS  "
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g3 -gdwarf-2"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -Wl,-shared -fPIC -shared  "
+      CMAKE_MODULE_PATH: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/cmake/Modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-hr6c53'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile cmTC_367cd/fast
+        make  -f CMakeFiles/cmTC_367cd.dir/build.make CMakeFiles/cmTC_367cd.dir/build
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-hr6c53'
+        Building C object CMakeFiles/cmTC_367cd.dir/CheckIncludeFile.c.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc.exe   -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS    -std=gnu99 -o CMakeFiles/cmTC_367cd.dir/CheckIncludeFile.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-hr6c53/CheckIncludeFile.c
+        Linking C static library libcmTC_367cd.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/cmTC_367cd.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_367cd.dir/link.txt --verbose=1
+        aarch64-sylixos-elf-ar qc libcmTC_367cd.a CMakeFiles/cmTC_367cd.dir/CheckIncludeFile.c.o
+        aarch64-sylixos-elf-ranlib libcmTC_367cd.a
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-hr6c53'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "D:/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "src/ddsrt/CMakeLists.txt:177 (check_type_size)"
+    checks:
+      - "Check size of struct sockaddr_in6"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-pg9lo6"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-pg9lo6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS  "
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g3 -gdwarf-2"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -Wl,-shared -fPIC -shared  "
+      CMAKE_MODULE_PATH: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/cmake/Modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_SIZEOF_SOCKADDR_IN6"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-pg9lo6'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile cmTC_4f8d7/fast
+        make  -f CMakeFiles/cmTC_4f8d7.dir/build.make CMakeFiles/cmTC_4f8d7.dir/build
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-pg9lo6'
+        Building C object CMakeFiles/cmTC_4f8d7.dir/SIZEOF_SOCKADDR_IN6.c.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc.exe   -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS    -std=gnu99 -o CMakeFiles/cmTC_4f8d7.dir/SIZEOF_SOCKADDR_IN6.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-pg9lo6/SIZEOF_SOCKADDR_IN6.c
+        Linking C static library libcmTC_4f8d7.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/cmTC_4f8d7.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_4f8d7.dir/link.txt --verbose=1
+        aarch64-sylixos-elf-ar qc libcmTC_4f8d7.a CMakeFiles/cmTC_4f8d7.dir/SIZEOF_SOCKADDR_IN6.c.o
+        aarch64-sylixos-elf-ranlib libcmTC_4f8d7.a
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-pg9lo6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "D:/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "src/ddsrt/CMakeLists.txt:198 (check_symbol_exists)"
+    checks:
+      - "Looking for IP_ADD_SOURCE_MEMBERSHIP"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-tm0jp4"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-tm0jp4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS  "
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g3 -gdwarf-2"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -Wl,-shared -fPIC -shared  "
+      CMAKE_MODULE_PATH: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/cmake/Modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "DDSRT_HAVE_IP_ADD_SOURCE_MEMBERSHIP"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-tm0jp4'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile cmTC_8086b/fast
+        make  -f CMakeFiles/cmTC_8086b.dir/build.make CMakeFiles/cmTC_8086b.dir/build
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-tm0jp4'
+        Building C object CMakeFiles/cmTC_8086b.dir/CheckSymbolExists.c.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc.exe   -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS    -std=gnu99 -o CMakeFiles/cmTC_8086b.dir/CheckSymbolExists.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-tm0jp4/CheckSymbolExists.c
+        Linking C static library libcmTC_8086b.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/cmTC_8086b.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8086b.dir/link.txt --verbose=1
+        aarch64-sylixos-elf-ar qc libcmTC_8086b.a CMakeFiles/cmTC_8086b.dir/CheckSymbolExists.c.o
+        aarch64-sylixos-elf-ranlib libcmTC_8086b.a
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-tm0jp4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "D:/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "src/ddsrt/CMakeLists.txt:200 (check_symbol_exists)"
+    checks:
+      - "Looking for MCAST_JOIN_SOURCE_GROUP"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-kusqrt"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-kusqrt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS  "
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g3 -gdwarf-2"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -Wl,-shared -fPIC -shared  "
+      CMAKE_MODULE_PATH: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/cmake/Modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "DDSRT_HAVE_MCAST_JOIN_SOURCE_GROUP"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-kusqrt'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile cmTC_a419d/fast
+        make  -f CMakeFiles/cmTC_a419d.dir/build.make CMakeFiles/cmTC_a419d.dir/build
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-kusqrt'
+        Building C object CMakeFiles/cmTC_a419d.dir/CheckSymbolExists.c.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc.exe   -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS    -std=gnu99 -o CMakeFiles/cmTC_a419d.dir/CheckSymbolExists.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-kusqrt/CheckSymbolExists.c
+        Linking C static library libcmTC_a419d.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/cmTC_a419d.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_a419d.dir/link.txt --verbose=1
+        aarch64-sylixos-elf-ar qc libcmTC_a419d.a CMakeFiles/cmTC_a419d.dir/CheckSymbolExists.c.o
+        aarch64-sylixos-elf-ranlib libcmTC_a419d.a
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-kusqrt'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "D:/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "D:/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "src/ddsrt/CMakeLists.txt:268 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-ued1vs"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-ued1vs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS  "
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g3 -gdwarf-2"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -Wl,-shared -fPIC -shared  "
+      CMAKE_MODULE_PATH: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/cmake/Modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-ued1vs'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile cmTC_eef8a/fast
+        make  -f CMakeFiles/cmTC_eef8a.dir/build.make CMakeFiles/cmTC_eef8a.dir/build
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-ued1vs'
+        Building C object CMakeFiles/cmTC_eef8a.dir/src.c.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS    -std=gnu99 -o CMakeFiles/cmTC_eef8a.dir/src.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-ued1vs/src.c
+        Linking C static library libcmTC_eef8a.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/cmTC_eef8a.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_eef8a.dir/link.txt --verbose=1
+        aarch64-sylixos-elf-ar qc libcmTC_eef8a.a CMakeFiles/cmTC_eef8a.dir/src.c.o
+        aarch64-sylixos-elf-ranlib libcmTC_eef8a.a
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-ued1vs'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "src/ddsrt/CMakeLists.txt:336 (check_library_exists)"
+    checks:
+      - "Looking for clock_gettime in c"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-u4qwnp"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-u4qwnp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS  "
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g3 -gdwarf-2"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -Wl,-shared -fPIC -shared  "
+      CMAKE_MODULE_PATH: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/cmake/Modules"
+      CMAKE_WARN_DEPRECATED: "FALSE"
+    buildResult:
+      variable: "HAVE_CLOCK_GETTIME"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-u4qwnp'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile cmTC_bee24/fast
+        make  -f CMakeFiles/cmTC_bee24.dir/build.make CMakeFiles/cmTC_bee24.dir/build
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-u4qwnp'
+        Building C object CMakeFiles/cmTC_bee24.dir/CheckFunctionExists.c.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc.exe   -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include -ID:/RealEvo_workspace/vsoa_demo/aarc64/libsylixos/SylixOS/include/network -mcpu=generic  -fno-omit-frame-pointer -mstrict-align -ffixed-x18 -fno-strict-aliasing -Wall -fmessage-length=0 -fsigned-char -fno-short-enums   -fPIC -DSYLIXOS   -DCHECK_FUNCTION_EXISTS=clock_gettime -std=gnu99 -o CMakeFiles/cmTC_bee24.dir/CheckFunctionExists.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-u4qwnp/CheckFunctionExists.c
+        Linking C static library libcmTC_bee24.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/cmTC_bee24.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_bee24.dir/link.txt --verbose=1
+        aarch64-sylixos-elf-ar qc libcmTC_bee24.a CMakeFiles/cmTC_bee24.dir/CheckFunctionExists.c.o
+        aarch64-sylixos-elf-ranlib libcmTC_bee24.a
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/CMakeFiles/CMakeScratch/TryCompile-u4qwnp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "D:/CMake/share/cmake-3.31/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "src/core/CMakeLists.txt:35 (check_ipo_supported)"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile
+        /D/CMake/bin/cmake.exe -S/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/src -B/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /D/CMake/bin/cmake.exe -E cmake_progress_start /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin//CMakeFiles/progress.marks
+        make  -f CMakeFiles/Makefile2 all
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        make[2]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /D/CMake/bin/cmake.exe -E cmake_depends "MSYS Makefiles" /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/src /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/src /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        Dependee "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/depend.internal".
+        Dependee "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/depend.internal".
+        Scanning dependencies of target foo
+        make[2]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        make[2]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 25%] Building CXX object CMakeFiles/foo.dir/foo.cpp.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-g++.exe   -flto=1 -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.cpp.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+        [ 50%] Linking CXX static library libfoo.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "D:/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc-ar.exe" qc libfoo.a CMakeFiles/foo.dir/foo.cpp.o
+        "D:/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc-ranlib.exe" libfoo.a
+        make[2]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 50%] Built target foo
+        make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        make[2]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /D/CMake/bin/cmake.exe -E cmake_depends "MSYS Makefiles" /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/src /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/src /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        Dependee "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/depend.internal".
+        Dependee "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/depend.internal".
+        Scanning dependencies of target boo
+        make[2]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        make[2]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 75%] Building CXX object CMakeFiles/boo.dir/main.cpp.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-g++.exe   -flto=1 -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.cpp.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+        [100%] Linking CXX executable boo
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-g++.exe -flto=1 -fno-fat-lto-objects "CMakeFiles/boo.dir/main.cpp.o"  -o boo  libfoo.a
+        d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000400000
+        make[2]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [100%] Built target boo
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /D/CMake/bin/cmake.exe -E cmake_progress_start /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles 0
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "D:/CMake/share/cmake-3.31/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "src/core/CMakeLists.txt:35 (check_ipo_supported)"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile
+        /D/CMake/bin/cmake.exe -S/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/src -B/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /D/CMake/bin/cmake.exe -E cmake_progress_start /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin//CMakeFiles/progress.marks
+        make  -f CMakeFiles/Makefile2 all
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin'
+        make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        make[2]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin'
+        /D/CMake/bin/cmake.exe -E cmake_depends "MSYS Makefiles" /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/src /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/src /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        Dependee "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Dependee "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Scanning dependencies of target foo
+        make[2]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin'
+        make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        make[2]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 25%] Building C object CMakeFiles/foo.dir/foo.c.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc.exe   -flto=1 -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [ 50%] Linking C static library libfoo.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "D:/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc-ar.exe" qc libfoo.a CMakeFiles/foo.dir/foo.c.o
+        "D:/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc-ranlib.exe" libfoo.a
+        make[2]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 50%] Built target foo
+        make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        make[2]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin'
+        /D/CMake/bin/cmake.exe -E cmake_depends "MSYS Makefiles" /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/src /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/src /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        Dependee "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Dependee "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Scanning dependencies of target boo
+        make[2]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin'
+        make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        make[2]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 75%] Building C object CMakeFiles/boo.dir/main.c.o
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc.exe   -flto=1 -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.c.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [100%] Linking C executable boo
+        /D/RealEvo/compiler/aarch64-sylixos-toolchain/bin/aarch64-sylixos-elf-gcc.exe -flto=1 -fno-fat-lto-objects "CMakeFiles/boo.dir/main.c.o"  -o boo  libfoo.a
+        d:/realevo/compiler/aarch64-sylixos-toolchain/bin/../lib/gcc/aarch64-sylixos-elf/10.2.1/../../../../aarch64-sylixos-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 0000000000400000
+        make[2]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin'
+        [100%] Built target boo
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin'
+        /D/CMake/bin/cmake.exe -E cmake_progress_start /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/aarch64_sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles 0
+        
+      exitCode: 0
+...
