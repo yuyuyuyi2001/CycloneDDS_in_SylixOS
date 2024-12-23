@@ -50,6 +50,7 @@ static bool process_topic (dds_entity_t readcond)
      level-triggered, that would result in a spinning thread. */
   int32_t n = dds_take (readcond, samples, infos, MAXCOUNT, MAXCOUNT);
   bool topics_seen = false;
+  printf("get dds count:%d\n", n);
   for (int32_t i = 0; i < n; i++)
   {
     dds_builtintopic_topic_t const * const sample = samples[i];
