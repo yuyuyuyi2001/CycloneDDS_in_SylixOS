@@ -21,6 +21,7 @@
 
 CU_Test(ddsc_domain, get_domainid)
 {
+  printf("enter ddsc_domain_\n");
   dds_entity_t pp, d, x;
   dds_return_t rc;
   uint32_t did;
@@ -48,6 +49,7 @@ CU_Test(ddsc_domain, get_domainid)
 
 CU_Test(ddsc_domain, delete_domain0)
 {
+    printf("enter ddsc_domain_2\n");
   dds_entity_t pp[3], d[3];
   dds_return_t rc;
   uint32_t did;
@@ -85,6 +87,7 @@ CU_Test(ddsc_domain, delete_domain0)
 
 CU_Test(ddsc_domain, delete_domainM)
 {
+    printf("enter ddsc_domain_3\n");
   dds_entity_t pp[3], d[3], x;
   dds_return_t rc;
   uint32_t did;
@@ -121,8 +124,28 @@ CU_Test(ddsc_domain, delete_domainM)
   CU_ASSERT_FATAL (rc == DDS_RETCODE_PRECONDITION_NOT_MET);
 }
 
+CU_Test(ddsc_domain_create, mismatch)
+{
+      printf("enter ddsc_domain_6\n");
+  dds_return_t ret;
+  dds_domainid_t did;
+  dds_entity_t domain;
+
+  /* The config should have been ignored. */
+  domain = dds_create_domain(2, "<CycloneDDS><Domain><Id>3</Id></Domain></CycloneDDS>");
+  CU_ASSERT_FATAL(domain > 0);
+
+  ret = dds_get_domainid (domain, &did);
+  CU_ASSERT_FATAL(ret == DDS_RETCODE_OK);
+  CU_ASSERT_FATAL(did == 2);
+
+  ret = dds_delete(domain);
+  CU_ASSERT_FATAL(ret == DDS_RETCODE_OK);
+}
+
 CU_Test(ddsc_domain, delete_cyclonedds)
 {
+  printf("enter ddsc_domain_4\n");
   dds_entity_t pp[3], d[3];
   dds_return_t rc;
   uint32_t did;
@@ -141,10 +164,14 @@ CU_Test(ddsc_domain, delete_cyclonedds)
   CU_ASSERT_FATAL (rc == 0);
   rc = dds_get_domainid (pp[0], &did);
   CU_ASSERT_FATAL (rc == DDS_RETCODE_PRECONDITION_NOT_MET);
+  printf("ddsc_domain_4 over\n");
+  // 跑到这里 测试进程直接没了？ 为什么
 }
 
 CU_Test(ddsc_domain_create, valid)
 {
+  printf("enter ddsc_domain_5\n");
+  fflush(stdout);
   dds_return_t ret;
   dds_domainid_t did;
   dds_entity_t domain;
@@ -162,26 +189,9 @@ CU_Test(ddsc_domain_create, valid)
   CU_ASSERT_FATAL(ret != DDS_RETCODE_OK);
 }
 
-CU_Test(ddsc_domain_create, mismatch)
-{
-  dds_return_t ret;
-  dds_domainid_t did;
-  dds_entity_t domain;
-
-  /* The config should have been ignored. */
-  domain = dds_create_domain(2, "<CycloneDDS><Domain><Id>3</Id></Domain></CycloneDDS>");
-  CU_ASSERT_FATAL(domain > 0);
-
-  ret = dds_get_domainid (domain, &did);
-  CU_ASSERT_FATAL(ret == DDS_RETCODE_OK);
-  CU_ASSERT_FATAL(did == 2);
-
-  ret = dds_delete(domain);
-  CU_ASSERT_FATAL(ret == DDS_RETCODE_OK);
-}
-
 CU_Test(ddsc_domain_create, empty)
 {
+    printf("enter ddsc_domain_7\n");
   dds_return_t ret;
   dds_domainid_t did;
   dds_entity_t domain;
@@ -330,6 +340,7 @@ static void logsink (void *varg, const dds_log_data_t *msg)
 
 CU_Test(ddsc_domain_create, raw_config)
 {
+    printf("ddsc_domain_create enter\n");
   /* Verifies that starting up with a default configuration from an initializer results
      in the same configuration dump as starting using the (tried and tested) XML route.
 
@@ -391,5 +402,7 @@ CU_Test(ddsc_domain_create, raw_config)
   for (size_t i = 0; i < arg_raw.size; i++)
     ddsrt_free (arg_raw.buf[i]);
   ddsrt_free (arg_raw.buf);
+
+  printf("ddsc_domain out\n");
 }
 

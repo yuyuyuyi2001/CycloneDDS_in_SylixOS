@@ -437,6 +437,7 @@ static uint32_t createwriter_subscriber (void *varg)
 
 CU_Test(ddsc_discstress, create_writer, .timeout = 20)
 {
+  // 设置了timeout 为何超时仍不退出?
   /* Domains for pub and sub use a different domain id, but the portgain setting
    * in configuration is 0, so that both domains will map to the same port number.
    * This allows to create two domains in a single test process. */
@@ -473,6 +474,7 @@ CU_Test(ddsc_discstress, create_writer, .timeout = 20)
   rc = ddsrt_thread_create (&sub_tid, "sub_thread", &tattr, createwriter_subscriber, &sub_arg);
   CU_ASSERT_FATAL (rc == 0);
 
+//线程结束不了？
   ddsrt_thread_join (pub_tid, NULL);
   ddsrt_thread_join (sub_tid, NULL);
 

@@ -1562,12 +1562,12 @@ src/core/ddsi/tests/CMakeFiles/cunit_ddsi.dir/all: src/ucunit/CMakeFiles/ucunit.
 src/core/ddsi/tests/CMakeFiles/cunit_ddsi.dir/all: src/core/CMakeFiles/ddsc.dir/all
 	$(MAKE) $(MAKESILENT) -f src/core/ddsi/tests/CMakeFiles/cunit_ddsi.dir/build.make src/core/ddsi/tests/CMakeFiles/cunit_ddsi.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/core/ddsi/tests/CMakeFiles/cunit_ddsi.dir/build.make src/core/ddsi/tests/CMakeFiles/cunit_ddsi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/CMakeFiles --progress-num=29,30,31 "Built target cunit_ddsi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/CMakeFiles --progress-num=28,29,30,31 "Built target cunit_ddsi"
 .PHONY : src/core/ddsi/tests/CMakeFiles/cunit_ddsi.dir/all
 
 # Build rule for subdir invocation for target.
 src/core/ddsi/tests/CMakeFiles/cunit_ddsi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/CMakeFiles 51
+	$(CMAKE_COMMAND) -E cmake_progress_start /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/CMakeFiles 52
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/core/ddsi/tests/CMakeFiles/cunit_ddsi.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/CMakeFiles 0
 .PHONY : src/core/ddsi/tests/CMakeFiles/cunit_ddsi.dir/rule
@@ -1626,12 +1626,12 @@ src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/all: src/core/CMakeFiles/ddsc.dir/
 src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/all: src/core/ddsc/tests/CMakeFiles/psmx_dummy.dir/all
 	$(MAKE) $(MAKESILENT) -f src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/build.make src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/build.make src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target cunit_ddsc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27 "Built target cunit_ddsc"
 .PHONY : src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/all
 
 # Build rule for subdir invocation for target.
 src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/CMakeFiles 76
+	$(CMAKE_COMMAND) -E cmake_progress_start /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/CMakeFiles 75
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/CMakeFiles 0
 .PHONY : src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/rule

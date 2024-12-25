@@ -226,6 +226,7 @@ static void stress_data_avail_delete_reader (bool remote, int duration)
 
 CU_Test(ddsc_data_avail_stress, local)
 {
+  printf("enter: ddsc_data_avail_stress\n");
   stress_data_avail_delete_reader (false, 3);
 }
 

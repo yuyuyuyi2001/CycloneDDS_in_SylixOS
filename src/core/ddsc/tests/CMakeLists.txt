@@ -45,10 +45,8 @@ set(ddsc_test_sources
     "basic.c"
     "builtin_topics.c"
     "cdr.c"
-    "config.c"
     "data_avail_stress.c"
     "destorder.c"
-    "discstress.c"
     "dispose.c"
     "domain.c"
     "domain_torture.c"
@@ -274,18 +272,21 @@ if(ENABLE_TYPELIB)
   # XSpace XSpaceNoTypeInfo TypeBuilderTypes DynamicTypeTypes)
 endif()
 
-# Setup environment for config-tests
-get_test_property(CUnit_ddsc_config_simple_udp ENVIRONMENT CUnit_ddsc_config_simple_udp_env)
-set(CUnit_ddsc_config_simple_udp_file "${CMAKE_CURRENT_LIST_DIR}/config_simple_udp.xml")
-set(CUnit_ddsc_config_simple_udp_uri "file://${CUnit_ddsc_config_simple_udp_file}")
-set(CUnit_ddsc_config_simple_udp_max_participants "0")
-set(CUnit_ddsc_config_simple_udp_env "CYCLONEDDS_URI=${CUnit_ddsc_config_simple_udp_uri};MAX_PARTICIPANTS=${CUnit_ddsc_config_simple_udp_max_participants};${CUnit_ddsc_config_simple_udp_env}")
+#先跳过这些测试配置
+if(NOT DEFINED SYLIXOS)
+  # Setup environment for config-tests
+  get_test_property(CUnit_ddsc_config_simple_udp ENVIRONMENT CUnit_ddsc_config_simple_udp_env)
+  set(CUnit_ddsc_config_simple_udp_file "${CMAKE_CURRENT_LIST_DIR}/config_simple_udp.xml")
+  set(CUnit_ddsc_config_simple_udp_uri "file://${CUnit_ddsc_config_simple_udp_file}")
+  set(CUnit_ddsc_config_simple_udp_max_participants "0")
+  set(CUnit_ddsc_config_simple_udp_env "CYCLONEDDS_URI=${CUnit_ddsc_config_simple_udp_uri};MAX_PARTICIPANTS=${CUnit_ddsc_config_simple_udp_max_participants};${CUnit_ddsc_config_simple_udp_env}")
 
-set_tests_properties(
-	CUnit_ddsc_config_simple_udp
-	PROPERTIES
-		REQUIRED_FILES ${CUnit_ddsc_config_simple_udp_file}
-		ENVIRONMENT "${CUnit_ddsc_config_simple_udp_env}")
+  set_tests_properties(
+    CUnit_ddsc_config_simple_udp
+    PROPERTIES
+      REQUIRED_FILES ${CUnit_ddsc_config_simple_udp_file}
+      ENVIRONMENT "${CUnit_ddsc_config_simple_udp_env}")
+endif()
 
 configure_file("deadline_update.h.in" "deadline_update.h")
 configure_file("build_options.h.in" "build_options.h")

@@ -11,7 +11,7 @@
 #ifndef CONFIG_ENV_H
 #define CONFIG_ENV_H
 
-#define CONFIG_ENV_SIMPLE_UDP           "file://D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/src/core/ddsc/tests/config_simple_udp.xml"
-#define CONFIG_ENV_MAX_PARTICIPANTS     "0"
+#define CONFIG_ENV_SIMPLE_UDP           ""
+#define CONFIG_ENV_MAX_PARTICIPANTS     ""
 
 #endif /* CONFIG_ENV_H */

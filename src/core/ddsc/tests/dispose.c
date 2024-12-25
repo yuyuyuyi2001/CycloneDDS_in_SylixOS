@@ -136,6 +136,7 @@ disposing_fini(void)
 /*************************************************************************************************/
 CU_Test(ddsc_writedispose, deleted, .init=disposing_init, .fini=disposing_fini)
 {
+    printf("dispose1\n");
     dds_return_t ret;
     dds_delete(g_writer);
     DDSRT_WARNING_MSVC_OFF(6387); /* Disable SAL warning on intentional misuse of the API */
@@ -148,6 +149,7 @@ CU_Test(ddsc_writedispose, deleted, .init=disposing_init, .fini=disposing_fini)
 /*************************************************************************************************/
 CU_Test(ddsc_writedispose, null, .init=disposing_init, .fini=disposing_fini)
 {
+    printf("dispose2\n");
     dds_return_t ret;
     DDSRT_WARNING_MSVC_OFF(6387); /* Disable SAL warning on intentional misuse of the API */
     ret = dds_writedispose(g_writer, NULL);
@@ -190,6 +192,7 @@ CU_Theory((dds_entity_t *writer), ddsc_writedispose, non_writers, .init=disposin
 /*************************************************************************************************/
 CU_Test(ddsc_writedispose, disposing_old_instance, .init=disposing_init, .fini=disposing_fini)
 {
+    printf("dispose3\n");
     Space_Type1 oldInstance = { 0, 22, 22 };
     dds_return_t ret;
 
@@ -231,6 +234,7 @@ CU_Test(ddsc_writedispose, disposing_old_instance, .init=disposing_init, .fini=d
 /*************************************************************************************************/
 CU_Test(ddsc_writedispose, disposing_new_instance, .init=disposing_init, .fini=disposing_fini)
 {
+    printf("dispose4\n");
     Space_Type1 newInstance = { INITIAL_SAMPLES, 42, 42 };
     dds_return_t ret;
 
@@ -272,6 +276,7 @@ CU_Test(ddsc_writedispose, disposing_new_instance, .init=disposing_init, .fini=d
 /*************************************************************************************************/
 CU_Test(ddsc_writedispose, timeout, .init=disposing_init, .fini=disposing_fini)
 {
+    printf("dispose5\n");
     Space_Type1 newInstance1 = { INITIAL_SAMPLES  , 22, 22 };
     Space_Type1 newInstance2 = { INITIAL_SAMPLES+1, 42, 42 };
     dds_return_t ret;
@@ -1033,6 +1038,7 @@ CU_Test(ddsc_dispose_ih_ts, disposing_old_instance, .init=disposing_init, .fini=
 /*************************************************************************************************/
 CU_Test(ddsc_dispose_ih_ts, disposing_past_sample, .init=disposing_init, .fini=disposing_fini)
 {
+    printf("enter ddsc_dispose_ih_ts\n");
     Space_Type1 oldInstance = { 0, 0, 0 };
     dds_instance_handle_t hdl = dds_lookup_instance(g_writer, &oldInstance);
     dds_return_t ret;
@@ -1070,7 +1076,8 @@ CU_Test(ddsc_dispose_ih_ts, disposing_past_sample, .init=disposing_init, .fini=d
             CU_FAIL_FATAL("Unknown sample read");
         }
     }
-
+    printf("fulfil ddsc_dispose_ih_ts\n");
+    fflush(stdout); 
 }
 /*************************************************************************************************/
 

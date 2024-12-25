@@ -941,26 +941,31 @@ static const struct ops gops = {
 
 CU_Test(ddsc_cdr, basic)
 {
+  printf("enter TEST:ddsc_cdr_basic\n");
   cdr_basic (&gops);
 }
 
 CU_Test(ddsc_cdr, forward)
 {
+  printf("enter TEST:ddsc_cdr_forward\n");
   cdr_forward (&gops);
 }
 
 CU_Test(ddsc_cdr, invalid_data)
 {
+  printf("enter TEST:ddsc_cdr_invalid_data\n");
   cdr_invalid_data (&gops);
 }
 
 CU_Test(ddsc_cdr, timeout)
 {
+  printf("enter TEST:ddsc_cdr_timeout\n");
   cdr_timeout (&gops);
 }
 
 CU_Test(ddsc_cdr, forward_conv_serdata)
 {
+  printf("enter TEST:ddsc_cdr_forward_conv_serdata\n");
   dds_return_t rc;
 
   const dds_entity_t pp = dds_create_participant (0, NULL, NULL);

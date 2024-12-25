@@ -8,11 +8,11 @@
 //
 // SPDX-License-Identifier: EPL-2.0 OR BSD-3-Clause
 
-// 不知道为什么不生成，手动填一下
+// 交叉编译，放入sylixos下执行的话，用相对路径
 #ifndef CONFIG_ENV_H
 #define CONFIG_ENV_H
 
-#define CONFIG_ENV_SIMPLE_UDP           "file://D:/MSYS2/download/cyclonedds/src/core/ddsc/tests/config_simple_udp.xml"
+#define CONFIG_ENV_SIMPLE_UDP           "file://cyclonedds/src/core/ddsc/tests/config_simple_udp.xml"
 #define CONFIG_ENV_MAX_PARTICIPANTS     "0"
 
 #endif /* CONFIG_ENV_H */

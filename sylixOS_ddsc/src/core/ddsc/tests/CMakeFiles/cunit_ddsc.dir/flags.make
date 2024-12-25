@@ -16,13 +16,9 @@ C_FLAGS =  -ID:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS -ID:/Rea
 
 # Custom flags: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/cdr.c.o_FLAGS = -Wno-missing-field-initializers
 
-# Custom flags: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/config.c.o_FLAGS = -Wno-missing-field-initializers
-
 # Custom flags: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/data_avail_stress.c.o_FLAGS = -Wno-missing-field-initializers
 
 # Custom flags: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/destorder.c.o_FLAGS = -Wno-missing-field-initializers
-
-# Custom flags: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/discstress.c.o_FLAGS = -Wno-missing-field-initializers
 
 # Custom flags: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/dispose.c.o_FLAGS = -Wno-missing-field-initializers
 

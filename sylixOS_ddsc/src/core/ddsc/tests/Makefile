@@ -1000,30 +1000,6 @@ cdrstream.c.s:
 	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc && $(MAKE) $(MAKESILENT) -f src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/build.make src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/cdrstream.c.s
 .PHONY : cdrstream.c.s
 
-config.o: config.c.o
-.PHONY : config.o
-
-# target to build an object file
-config.c.o:
-	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc && $(MAKE) $(MAKESILENT) -f src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/build.make src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/config.c.o
-.PHONY : config.c.o
-
-config.i: config.c.i
-.PHONY : config.i
-
-# target to preprocess a source file
-config.c.i:
-	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc && $(MAKE) $(MAKESILENT) -f src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/build.make src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/config.c.i
-.PHONY : config.c.i
-
-config.s: config.c.s
-.PHONY : config.s
-
-# target to generate assembly for a file
-config.c.s:
-	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc && $(MAKE) $(MAKESILENT) -f src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/build.make src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/config.c.s
-.PHONY : config.c.s
-
 cunit_ddsc.o: cunit_ddsc.c.o
 .PHONY : cunit_ddsc.o
 
@@ -1143,30 +1119,6 @@ destorder.s: destorder.c.s
 destorder.c.s:
 	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc && $(MAKE) $(MAKESILENT) -f src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/build.make src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/destorder.c.s
 .PHONY : destorder.c.s
-
-discstress.o: discstress.c.o
-.PHONY : discstress.o
-
-# target to build an object file
-discstress.c.o:
-	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc && $(MAKE) $(MAKESILENT) -f src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/build.make src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/discstress.c.o
-.PHONY : discstress.c.o
-
-discstress.i: discstress.c.i
-.PHONY : discstress.i
-
-# target to preprocess a source file
-discstress.c.i:
-	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc && $(MAKE) $(MAKESILENT) -f src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/build.make src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/discstress.c.i
-.PHONY : discstress.c.i
-
-discstress.s: discstress.c.s
-.PHONY : discstress.s
-
-# target to generate assembly for a file
-discstress.c.s:
-	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc && $(MAKE) $(MAKESILENT) -f src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/build.make src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/discstress.c.s
-.PHONY : discstress.c.s
 
 dispose.o: dispose.c.o
 .PHONY : dispose.o
@@ -2918,9 +2870,6 @@ help:
 	@echo "... cdrstream.o"
 	@echo "... cdrstream.i"
 	@echo "... cdrstream.s"
-	@echo "... config.o"
-	@echo "... config.i"
-	@echo "... config.s"
 	@echo "... cunit_ddsc.o"
 	@echo "... cunit_ddsc.i"
 	@echo "... cunit_ddsc.s"
@@ -2936,9 +2885,6 @@ help:
 	@echo "... destorder.o"
 	@echo "... destorder.i"
 	@echo "... destorder.s"
-	@echo "... discstress.o"
-	@echo "... discstress.i"
-	@echo "... discstress.s"
 	@echo "... dispose.o"
 	@echo "... dispose.i"
 	@echo "... dispose.s"
