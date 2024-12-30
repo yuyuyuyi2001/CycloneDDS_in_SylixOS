@@ -41,6 +41,7 @@ static void delete_entity(void)
 
 CU_Test(ddsc_entity, create, .fini = delete_entity)
 {
+    printf("ddsc_entity_create enter!\n");
     /* Use participant as entity in the tests. */
     entity = dds_create_participant (DDS_DOMAIN_DEFAULT, NULL, NULL);
     CU_ASSERT_FATAL(entity > 0 );

@@ -26,8 +26,6 @@ C_FLAGS =  -ID:/RealEvo_workspace/vsoa_demo/x86_base/libsylixos/SylixOS -ID:/Rea
 
 # Custom flags: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/domain.c.o_FLAGS = -Wno-missing-field-initializers
 
-# Custom flags: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/domain_torture.c.o_FLAGS = -Wno-missing-field-initializers
-
 # Custom flags: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/entity_api.c.o_FLAGS = -Wno-missing-field-initializers
 
 # Custom flags: src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/entity_hierarchy.c.o_FLAGS = -Wno-missing-field-initializers

@@ -78,8 +78,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/cunit_ddsc.dir/dispose.c.o.d"
   "CMakeFiles/cunit_ddsc.dir/domain.c.o"
   "CMakeFiles/cunit_ddsc.dir/domain.c.o.d"
-  "CMakeFiles/cunit_ddsc.dir/domain_torture.c.o"
-  "CMakeFiles/cunit_ddsc.dir/domain_torture.c.o.d"
   "CMakeFiles/cunit_ddsc.dir/dynamic_type.c.o"
   "CMakeFiles/cunit_ddsc.dir/dynamic_type.c.o.d"
   "CMakeFiles/cunit_ddsc.dir/entity_api.c.o"

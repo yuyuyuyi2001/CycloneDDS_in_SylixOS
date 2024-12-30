@@ -1168,30 +1168,6 @@ domain.c.s:
 	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc && $(MAKE) $(MAKESILENT) -f src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/build.make src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/domain.c.s
 .PHONY : domain.c.s
 
-domain_torture.o: domain_torture.c.o
-.PHONY : domain_torture.o
-
-# target to build an object file
-domain_torture.c.o:
-	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc && $(MAKE) $(MAKESILENT) -f src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/build.make src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/domain_torture.c.o
-.PHONY : domain_torture.c.o
-
-domain_torture.i: domain_torture.c.i
-.PHONY : domain_torture.i
-
-# target to preprocess a source file
-domain_torture.c.i:
-	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc && $(MAKE) $(MAKESILENT) -f src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/build.make src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/domain_torture.c.i
-.PHONY : domain_torture.c.i
-
-domain_torture.s: domain_torture.c.s
-.PHONY : domain_torture.s
-
-# target to generate assembly for a file
-domain_torture.c.s:
-	cd /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc && $(MAKE) $(MAKESILENT) -f src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/build.make src/core/ddsc/tests/CMakeFiles/cunit_ddsc.dir/domain_torture.c.s
-.PHONY : domain_torture.c.s
-
 dynamic_type.o: dynamic_type.c.o
 .PHONY : dynamic_type.o
 
@@ -2891,9 +2867,6 @@ help:
 	@echo "... domain.o"
 	@echo "... domain.i"
 	@echo "... domain.s"
-	@echo "... domain_torture.o"
-	@echo "... domain_torture.i"
-	@echo "... domain_torture.s"
 	@echo "... dynamic_type.o"
 	@echo "... dynamic_type.i"
 	@echo "... dynamic_type.s"

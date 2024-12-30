@@ -124,25 +124,6 @@ CU_Test(ddsc_domain, delete_domainM)
   CU_ASSERT_FATAL (rc == DDS_RETCODE_PRECONDITION_NOT_MET);
 }
 
-CU_Test(ddsc_domain_create, mismatch)
-{
-      printf("enter ddsc_domain_6\n");
-  dds_return_t ret;
-  dds_domainid_t did;
-  dds_entity_t domain;
-
-  /* The config should have been ignored. */
-  domain = dds_create_domain(2, "<CycloneDDS><Domain><Id>3</Id></Domain></CycloneDDS>");
-  CU_ASSERT_FATAL(domain > 0);
-
-  ret = dds_get_domainid (domain, &did);
-  CU_ASSERT_FATAL(ret == DDS_RETCODE_OK);
-  CU_ASSERT_FATAL(did == 2);
-
-  ret = dds_delete(domain);
-  CU_ASSERT_FATAL(ret == DDS_RETCODE_OK);
-}
-
 CU_Test(ddsc_domain, delete_cyclonedds)
 {
   printf("enter ddsc_domain_4\n");
@@ -166,6 +147,7 @@ CU_Test(ddsc_domain, delete_cyclonedds)
   CU_ASSERT_FATAL (rc == DDS_RETCODE_PRECONDITION_NOT_MET);
   printf("ddsc_domain_4 over\n");
   // 跑到这里 测试进程直接没了？ 为什么
+  //
 }
 
 CU_Test(ddsc_domain_create, valid)
@@ -187,6 +169,25 @@ CU_Test(ddsc_domain_create, valid)
   CU_ASSERT_FATAL(ret == DDS_RETCODE_OK);
   ret = dds_delete(domain);
   CU_ASSERT_FATAL(ret != DDS_RETCODE_OK);
+}
+
+CU_Test(ddsc_domain_create, mismatch)
+{
+      printf("enter ddsc_domain_6\n");
+  dds_return_t ret;
+  dds_domainid_t did;
+  dds_entity_t domain;
+
+  /* The config should have been ignored. */
+  domain = dds_create_domain(2, "<CycloneDDS><Domain><Id>3</Id></Domain></CycloneDDS>");
+  CU_ASSERT_FATAL(domain > 0);
+
+  ret = dds_get_domainid (domain, &did);
+  CU_ASSERT_FATAL(ret == DDS_RETCODE_OK);
+  CU_ASSERT_FATAL(did == 2);
+
+  ret = dds_delete(domain);
+  CU_ASSERT_FATAL(ret == DDS_RETCODE_OK);
 }
 
 CU_Test(ddsc_domain_create, empty)
@@ -256,6 +257,7 @@ CU_Test(ddsc_domain_create, after_participant)
 
 CU_Test(ddsc_domain_create, diff)
 {
+  printf("enter ddsc_domain_create_diff");
   dds_return_t ret;
   dds_domainid_t did;
   dds_entity_t domain1;

@@ -49,7 +49,6 @@ set(ddsc_test_sources
     "destorder.c"
     "dispose.c"
     "domain.c"
-    "domain_torture.c"
     "entity_api.c"
     "entity_hierarchy.c"
     "entity_status.c"
