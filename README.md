@@ -9,7 +9,10 @@
 
 # Eclipse Cyclone DDS
 
-**有关CycloneDDS移植到SylixOS的过程细节，参见[cyclonedds_sylixOS移植报告.docx](https://gitee.com/wkling/cyclonedds/blob/master/cyclonedds_sylixOS移植报告.docx)**
+**有关CycloneDDS移植到SylixOS的过程细节，参见[cyclonedds_sylixOS移植报告.docx](https://jihulab.com/Wangkunlin/sylixOS_cyclonedds/-/blob/master/cyclonedds_sylixOS%E7%A7%BB%E6%A4%8D%E6%8A%A5%E5%91%8A.docx?ref_type=heads)**
+
+截至2025年01月06日，能够在SylixOS实现CycloneDDS官网的example，通过cunit_ddsrt、cunit_ddsi、cunit_security_core三个测试集。
+cunit_ddsc暂时无法调通。
 
 Eclipse Cyclone DDS is a very performant and robust open-source implementation of the [OMG DDS specification](https://www.omg.org/spec/DDS/1.4/About-DDS/).
 Cyclone DDS is developed completely in the open as an Eclipse IoT project (see [eclipse-cyclone-dds](https://projects.eclipse.org/projects/iot.cyclonedds)) with a growing list of [adopters](https://iot.eclipse.org/adopters/?#iot.cyclonedds) (if you're one of them, please add your [logo](https://github.com/EclipseFdn/iot.eclipse.org/issues/new?template=adopter_request.md)).
