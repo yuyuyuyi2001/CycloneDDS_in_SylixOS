@@ -17,7 +17,7 @@
 #define DDS_VERSION_PATCH 0
 #define DDS_VERSION_TWEAK 
 #define DDS_PROJECT_NAME "CycloneDDS"
-#define DDS_GIT_HASH  "b21ef7ba"
+#define DDS_GIT_HASH  "ed07d30c"
 
 #define DDS_HOST_NAME "Windows"
 #define DDS_TARGET_NAME "SylixOS"

@@ -2306,3 +2306,67 @@ events:
         
       exitCode: 2
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CMake/share/cmake-3.31/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "D:/CMake/share/cmake-3.31/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "src/core/CMakeLists.txt:35 (check_ipo_supported)"
+    directories:
+      source: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 make -f Makefile
+        /D/CMake/bin/cmake.exe -S/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/src -B/D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /D/CMake/bin/cmake.exe -E cmake_progress_start /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin//CMakeFiles/progress.marks
+        make  -f CMakeFiles/Makefile2 all
+        make[1]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        make[2]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /D/CMake/bin/cmake.exe -E cmake_depends "MSYS Makefiles" /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/src /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/src /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        Dependee "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/depend.internal".
+        Dependee "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/depend.internal".
+        Scanning dependencies of target foo
+        make[2]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        make[2]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 25%] Building CXX object CMakeFiles/foo.dir/foo.cpp.o
+        /D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-g++.exe   -flto=1 -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.cpp.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+        [ 50%] Linking CXX static library libfoo.a
+        /D/CMake/bin/cmake.exe -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /D/CMake/bin/cmake.exe -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "D:/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc-ar.exe" qc libfoo.a CMakeFiles/foo.dir/foo.cpp.o
+        "D:/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-gcc-ranlib.exe" libfoo.a
+        make[2]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 50%] Built target foo
+        make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        make[2]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /D/CMake/bin/cmake.exe -E cmake_depends "MSYS Makefiles" /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/src /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/src /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        Dependee "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/depend.internal".
+        Dependee "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "D:/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/depend.internal".
+        Scanning dependencies of target boo
+        make[2]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        make[2]: Entering directory '/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 75%] Building CXX object CMakeFiles/boo.dir/main.cpp.o
+        /D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-g++.exe   -flto=1 -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.cpp.o -c /D/MSYS2/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+        [100%] Linking CXX executable boo
+        /D/RealEvo/compiler/x86_64-sylixos-toolchain/bin/x86_64-sylixos-elf-g++.exe -flto=1 -fno-fat-lto-objects "CMakeFiles/boo.dir/main.cpp.o"  -o boo  libfoo.a
+        d:/realevo/compiler/x86_64-sylixos-toolchain/bin/../lib/gcc/x86_64-sylixos-elf/10.2.1/../../../../x86_64-sylixos-elf/bin/ld.exe: cannot find crt0.o: No such file or directory
+        collect2.exe: error: ld returned 1 exit status
+        make[2]: *** [CMakeFiles/boo.dir/build.make:102: boo] Error 1
+        make[2]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        make[1]: *** [CMakeFiles/Makefile2:124: CMakeFiles/boo.dir/all] Error 2
+        make[1]: Leaving directory '/download/SylixOS_cyclonedds/cyclonedds/sylixOS_ddsc/src/core/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        make: *** [Makefile:94: all] Error 2
+        
+      exitCode: 2
+...
